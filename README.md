@@ -1,2 +1,21 @@
 # mesh-branch-fantasy-rules
-A Semanic Mesh whose Semantic Site is published in a branch
+
+`mesh-branch-fantasy-rules` is the branch-published fixture repository for the Fantasy Rules Semantic Flow ladder.
+
+The normal source branch stays clean: authored source files and deterministic replay assets live here, while generated Semantic Flow mesh output is published from a separate branch such as `gh-pages`.
+
+Current replay source refs:
+
+- `a.source.00-blank-slate`
+- `a.source.01-source-only`
+
+Publication rungs should be generated as commits on the publication branch rather than merged into `main`. Stable publication rung markers can be added after the branch-published generator path settles.
+
+Source ownership:
+
+- Accord manifests live in the Semantic Flow Framework conformance example.
+- Replay source bytes live in this repository under `.assets/`.
+- `main` and `a.source.00-blank-slate` carry source-control material and deterministic replay assets, but no generated mesh output.
+- Generated publication output is disposable replay output.
+
+Regeneration is local-only by default in Weave's fixture ladder tooling; pushing branch updates is an explicit follow-up step.

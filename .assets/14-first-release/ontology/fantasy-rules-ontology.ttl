@@ -1,0 +1,244 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix fant: <https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<ontology>
+    a owl:Ontology ;
+    dcterms:title "Fantasy Rules Ontology" ;
+    dcterms:description "A small SRD-inspired ontology fixture for Semantic Flow branch publication." ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:hasVersion <ontology/releases/v0.0.2> ;
+    dcterms:source <https://www.dndbeyond.com/srd> ;
+    owl:versionIRI <ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl> ;
+    rdfs:seeAlso <https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf> .
+
+fant:Character
+    a owl:Class ;
+    rdfs:label "Character" ;
+    skos:definition "A rules participant represented with ability scores and, optionally, an alignment." .
+
+fant:PlayerCharacter
+    a owl:Class ;
+    rdfs:subClassOf fant:Character ;
+    rdfs:label "Player Character" ;
+    skos:definition "A character controlled by a player." .
+
+fant:Ability
+    a owl:Class ;
+    rdfs:label "Ability" ;
+    skos:definition "One of the six physical or mental characteristics used by characters and monsters." .
+
+fant:AbilityScore
+    a owl:Class ;
+    rdfs:label "Ability Score" ;
+    skos:definition "A score representing the magnitude of a specific ability." .
+
+fant:Alignment
+    a owl:Class ;
+    rdfs:label "Alignment" ;
+    skos:definition "A broad description of ethical attitudes and ideals." ;
+    owl:oneOf (
+        <ontology/Alignment/lawfulGood>
+        <ontology/Alignment/neutralGood>
+        <ontology/Alignment/chaoticGood>
+        <ontology/Alignment/lawfulNeutral>
+        <ontology/Alignment/neutral>
+        <ontology/Alignment/chaoticNeutral>
+        <ontology/Alignment/lawfulEvil>
+        <ontology/Alignment/neutralEvil>
+        <ontology/Alignment/chaoticEvil>
+        <ontology/Alignment/unaligned>
+    ) .
+
+fant:AlignmentHistory
+    a owl:Class ;
+    rdfs:label "Alignment History" ;
+    skos:definition "A dated alignment assertion for a character." .
+
+fant:CharacterClass
+    a owl:Class ;
+    rdfs:label "Character Class" ;
+    skos:definition "A character archetype that summarizes a class's rules focus and primary abilities." .
+
+fant:hasAbilityScore
+    a owl:ObjectProperty ;
+    rdfs:label "has ability score" ;
+    rdfs:domain fant:Character ;
+    rdfs:range fant:AbilityScore .
+
+fant:forAbility
+    a owl:ObjectProperty ;
+    rdfs:label "for ability" ;
+    rdfs:domain fant:AbilityScore ;
+    rdfs:range fant:Ability .
+
+fant:scoreValue
+    a owl:DatatypeProperty ;
+    rdfs:label "score value" ;
+    rdfs:domain fant:AbilityScore ;
+    rdfs:range xsd:integer .
+
+fant:hasAlignment
+    a owl:ObjectProperty ;
+    rdfs:label "has alignment" ;
+    rdfs:domain fant:Character ;
+    rdfs:range fant:Alignment .
+
+fant:character
+    a owl:ObjectProperty ;
+    rdfs:label "character" ;
+    rdfs:domain fant:AlignmentHistory ;
+    rdfs:range fant:Character .
+
+fant:alignmentValue
+    a owl:ObjectProperty ;
+    rdfs:label "alignment value" ;
+    rdfs:domain fant:AlignmentHistory ;
+    rdfs:range fant:Alignment .
+
+fant:hasCharacterClass
+    a owl:ObjectProperty ;
+    rdfs:label "has character class" ;
+    rdfs:domain fant:Character ;
+    rdfs:range fant:CharacterClass .
+
+fant:primaryAbility
+    a owl:ObjectProperty ;
+    rdfs:label "primary ability" ;
+    rdfs:domain fant:Character ;
+    rdfs:range fant:Ability .
+
+fant:level
+    a owl:DatatypeProperty ;
+    rdfs:label "level" ;
+    rdfs:domain fant:Character ;
+    rdfs:range xsd:integer .
+
+fant:effectiveDateTime
+    a owl:DatatypeProperty ;
+    rdfs:label "effective date time" ;
+    rdfs:domain fant:AlignmentHistory ;
+    rdfs:range xsd:dateTime .
+
+fant:strength
+    a fant:Ability ;
+    rdfs:label "Strength" ;
+    skos:definition "Physical might." .
+
+fant:dexterity
+    a fant:Ability ;
+    rdfs:label "Dexterity" ;
+    skos:definition "Agility, reflexes, and balance." .
+
+fant:constitution
+    a fant:Ability ;
+    rdfs:label "Constitution" ;
+    skos:definition "Health and stamina." .
+
+fant:intelligence
+    a fant:Ability ;
+    rdfs:label "Intelligence" ;
+    skos:definition "Reasoning and memory." .
+
+fant:wisdom
+    a fant:Ability ;
+    rdfs:label "Wisdom" ;
+    skos:definition "Perceptiveness and mental fortitude." .
+
+fant:charisma
+    a fant:Ability ;
+    rdfs:label "Charisma" ;
+    skos:definition "Confidence, poise, and charm." .
+
+fant:barbarian
+    a fant:CharacterClass ;
+    rdfs:label "Barbarian" .
+
+fant:bard
+    a fant:CharacterClass ;
+    rdfs:label "Bard" .
+
+fant:cleric
+    a fant:CharacterClass ;
+    rdfs:label "Cleric" .
+
+fant:druid
+    a fant:CharacterClass ;
+    rdfs:label "Druid" .
+
+fant:fighter
+    a fant:CharacterClass ;
+    rdfs:label "Fighter" .
+
+fant:monk
+    a fant:CharacterClass ;
+    rdfs:label "Monk" .
+
+fant:paladin
+    a fant:CharacterClass ;
+    rdfs:label "Paladin" .
+
+fant:ranger
+    a fant:CharacterClass ;
+    rdfs:label "Ranger" .
+
+fant:rogue
+    a fant:CharacterClass ;
+    rdfs:label "Rogue" .
+
+fant:sorcerer
+    a fant:CharacterClass ;
+    rdfs:label "Sorcerer" .
+
+fant:warlock
+    a fant:CharacterClass ;
+    rdfs:label "Warlock" .
+
+fant:wizard
+    a fant:CharacterClass ;
+    rdfs:label "Wizard" .
+
+<ontology/Alignment/lawfulGood>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Lawful Good" .
+
+<ontology/Alignment/neutralGood>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Neutral Good" .
+
+<ontology/Alignment/chaoticGood>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Chaotic Good" .
+
+<ontology/Alignment/lawfulNeutral>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Lawful Neutral" .
+
+<ontology/Alignment/neutral>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Neutral" .
+
+<ontology/Alignment/chaoticNeutral>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Chaotic Neutral" .
+
+<ontology/Alignment/lawfulEvil>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Lawful Evil" .
+
+<ontology/Alignment/neutralEvil>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Neutral Evil" .
+
+<ontology/Alignment/chaoticEvil>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Chaotic Evil" .
+
+<ontology/Alignment/unaligned>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Unaligned" .
