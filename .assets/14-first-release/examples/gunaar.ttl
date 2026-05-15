@@ -1,7 +1,7 @@
 @base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/> .
 @prefix fant: <https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/> .
 @prefix schema: <https://schema.org/> .
-@prefix sflo: <https://semantic-flow.github.io/ontology/core/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <gunaar>
