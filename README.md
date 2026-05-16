@@ -11,6 +11,8 @@ Current replay source refs:
 
 Publication rungs should be generated as commits on the publication branch rather than merged into `main`. Matching `a.*-woven` refs mark accepted publication checkpoints so the whole ladder alpha-sorts in numeric order.
 
+Current accepted publication coverage runs through `a.15-extracted-term-references-woven`, with `gh-pages` fast-forwarded to that state. The fixture covers publication bootstrap, repository-backed ontology/SHACL/example materialization, named release weaving, all-term extraction, broad ResourcePage generation, `_knop/_sources` provenance, and representative current-mode canonical references.
+
 Source ownership:
 
 - Accord manifests live in the Semantic Flow Framework conformance example.
@@ -18,4 +20,6 @@ Source ownership:
 - `main` carries clean authored source files. `a.00-blank-slate` carries source-control material and deterministic replay assets, but no generated mesh output.
 - Generated publication output is disposable replay output.
 
-Regeneration is local-only by default in Weave's fixture ladder tooling; pushing branch updates is an explicit follow-up step.
+Publication output records source provenance beside each target Knop. Repository-backed source bindings and extraction-source details live in `_knop/_sources/sources.ttl`, linked from the Knop inventory with `sflo:hasKnopSourceRegistry`; curated references live separately in `_knop/_references/references.ttl`.
+
+Regeneration is local-only by default in Weave's fixture ladder tooling; pushing branch updates is an explicit follow-up step. For local preview/regeneration, `WEAVE_LOG_DIR=/tmp/weave-logs` keeps runtime logs outside the publication tree.
