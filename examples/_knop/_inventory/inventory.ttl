@@ -1,0 +1,17 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<examples/_knop> a sflo:Knop ;
+  sflo:hasKnopMetadata <examples/_knop/_meta> ;
+  sflo:hasKnopInventory <examples/_knop/_inventory> ;
+  sflo:hasWorkingKnopInventoryFile <examples/_knop/_inventory/inventory.ttl> .
+
+<examples/_knop/_meta> a sflo:KnopMetadata, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <examples/_knop/_meta/meta.ttl> .
+
+<examples/_knop/_inventory> a sflo:KnopInventory, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <examples/_knop/_inventory/inventory.ttl> .
+
+<examples/_knop/_meta/meta.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<examples/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .

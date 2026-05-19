@@ -7,7 +7,15 @@
   sflo:meshBase "https://semantic-flow.github.io/mesh-branch-fantasy-rules/"^^xsd:anyURI ;
   sflo:hasMeshMetadata <_mesh/_meta> ;
   sflo:hasMeshInventory <_mesh/_inventory> ;
-  sfcfg:hasConfig <_mesh/_config> ;
+  sflo:hasKnop <examples/_knop> ;
+  sflo:hasKnop <ontology/_knop> ;
+  sflo:hasKnop <shacl/_knop> ;
+  sflo:hasKnop <ontology/AbilityScore/_knop> ;
+  sflo:hasKnop <ontology/Alignment/_knop> ;
+  sflo:hasKnop <ontology/Character/_knop> ;
+  sflo:hasKnop <ontology/PlayerCharacter/_knop> ;
+  sflo:hasKnop <ontology/CharacterShape/_knop> ;
+  sflo:hasKnop <_knop> ;
   sflo:hasResourcePage <_mesh/index.html> .
 
 <_mesh/index.html> a sflo:ResourcePage, sflo:LocatedFile .
@@ -59,6 +67,10 @@
 <_mesh/_meta/meta.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
 <_mesh/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<examples/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
 <_mesh/_config/config.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
@@ -132,6 +144,12 @@
 
 <ontology/CharacterShape/_knop> a sflo:Knop ;
   sflo:hasWorkingKnopInventoryFile <ontology/CharacterShape/_knop/_inventory/inventory.ttl> .
+
+<_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <_knop/_inventory/inventory.ttl> .
+
+<examples/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/_knop/_inventory/inventory.ttl> .
 
 <ontology/CharacterShape/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
