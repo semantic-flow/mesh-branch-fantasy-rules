@@ -1,0 +1,9 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<examples/gunaar/ability-score/strength> sflo:hasReferenceLink <examples/gunaar/ability-score/strength/_knop/_references#reference001> .
+
+<examples/gunaar/ability-score/strength/_knop/_references#reference001> a sflo:ReferenceLink ;
+  sflo:referenceLinkFor <examples/gunaar/ability-score/strength> ;
+  sflo:hasReferenceRole <https://semantic-flow.github.io/sflo/ontology/referenceRole_canonical> ;
+  sflo:referenceTarget <examples/gunaar> .
