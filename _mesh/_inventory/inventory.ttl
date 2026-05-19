@@ -192,3 +192,19 @@
 <ontology/PlayerCharacter/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <ontology/PlayerCharacter/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<> sflo:hasResourcePage <index.html> .
+
+<_knop> sflo:hasResourcePage <_knop/index.html> .
+
+<index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples> sflo:hasResourcePage <examples/index.html> .
+
+<examples/_knop> sflo:hasResourcePage <examples/_knop/index.html> .
+
+<examples/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
