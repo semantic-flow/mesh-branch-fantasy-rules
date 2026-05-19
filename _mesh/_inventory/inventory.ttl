@@ -226,3 +226,444 @@
 <examples/gunaar/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <examples/gunaar/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<_mesh> sflo:hasKnop <ontology/Ability/_knop> .
+
+<ontology/Ability/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Ability/_knop/_inventory/inventory.ttl> .
+
+<ontology/Ability/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/chaoticEvil/_knop> .
+
+<ontology/Alignment/chaoticEvil/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/chaoticEvil/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/chaoticEvil/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/chaoticGood/_knop> .
+
+<ontology/Alignment/chaoticGood/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/chaoticGood/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/chaoticGood/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/chaoticNeutral/_knop> .
+
+<ontology/Alignment/chaoticNeutral/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/chaoticNeutral/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/chaoticNeutral/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/lawfulEvil/_knop> .
+
+<ontology/Alignment/lawfulEvil/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/lawfulEvil/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/lawfulEvil/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/lawfulGood/_knop> .
+
+<ontology/Alignment/lawfulGood/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/lawfulGood/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/lawfulGood/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/lawfulNeutral/_knop> .
+
+<ontology/Alignment/lawfulNeutral/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/lawfulNeutral/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/lawfulNeutral/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/neutral/_knop> .
+
+<ontology/Alignment/neutral/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/neutral/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/neutral/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/neutralEvil/_knop> .
+
+<ontology/Alignment/neutralEvil/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/neutralEvil/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/neutralEvil/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/neutralGood/_knop> .
+
+<ontology/Alignment/neutralGood/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/neutralGood/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/neutralGood/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/unaligned/_knop> .
+
+<ontology/Alignment/unaligned/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/unaligned/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/unaligned/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/AlignmentHistory/_knop> .
+
+<ontology/AlignmentHistory/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/AlignmentHistory/_knop/_inventory/inventory.ttl> .
+
+<ontology/AlignmentHistory/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/alignmentValue/_knop> .
+
+<ontology/alignmentValue/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/alignmentValue/_knop/_inventory/inventory.ttl> .
+
+<ontology/alignmentValue/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/barbarian/_knop> .
+
+<ontology/barbarian/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/barbarian/_knop/_inventory/inventory.ttl> .
+
+<ontology/barbarian/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/bard/_knop> .
+
+<ontology/bard/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/bard/_knop/_inventory/inventory.ttl> .
+
+<ontology/bard/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/character/_knop> .
+
+<ontology/character/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/character/_knop/_inventory/inventory.ttl> .
+
+<ontology/character/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/CharacterClass/_knop> .
+
+<ontology/CharacterClass/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/CharacterClass/_knop/_inventory/inventory.ttl> .
+
+<ontology/CharacterClass/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/charisma/_knop> .
+
+<ontology/charisma/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/charisma/_knop/_inventory/inventory.ttl> .
+
+<ontology/charisma/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/cleric/_knop> .
+
+<ontology/cleric/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/cleric/_knop/_inventory/inventory.ttl> .
+
+<ontology/cleric/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/constitution/_knop> .
+
+<ontology/constitution/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/constitution/_knop/_inventory/inventory.ttl> .
+
+<ontology/constitution/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/dexterity/_knop> .
+
+<ontology/dexterity/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/dexterity/_knop/_inventory/inventory.ttl> .
+
+<ontology/dexterity/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/druid/_knop> .
+
+<ontology/druid/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/druid/_knop/_inventory/inventory.ttl> .
+
+<ontology/druid/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/effectiveDateTime/_knop> .
+
+<ontology/effectiveDateTime/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/effectiveDateTime/_knop/_inventory/inventory.ttl> .
+
+<ontology/effectiveDateTime/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/fighter/_knop> .
+
+<ontology/fighter/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/fighter/_knop/_inventory/inventory.ttl> .
+
+<ontology/fighter/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/forAbility/_knop> .
+
+<ontology/forAbility/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/forAbility/_knop/_inventory/inventory.ttl> .
+
+<ontology/forAbility/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/hasAbilityScore/_knop> .
+
+<ontology/hasAbilityScore/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/hasAbilityScore/_knop/_inventory/inventory.ttl> .
+
+<ontology/hasAbilityScore/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/hasAlignment/_knop> .
+
+<ontology/hasAlignment/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/hasAlignment/_knop/_inventory/inventory.ttl> .
+
+<ontology/hasAlignment/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/hasCharacterClass/_knop> .
+
+<ontology/hasCharacterClass/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/hasCharacterClass/_knop/_inventory/inventory.ttl> .
+
+<ontology/hasCharacterClass/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/intelligence/_knop> .
+
+<ontology/intelligence/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/intelligence/_knop/_inventory/inventory.ttl> .
+
+<ontology/intelligence/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/level/_knop> .
+
+<ontology/level/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/level/_knop/_inventory/inventory.ttl> .
+
+<ontology/level/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/monk/_knop> .
+
+<ontology/monk/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/monk/_knop/_inventory/inventory.ttl> .
+
+<ontology/monk/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/paladin/_knop> .
+
+<ontology/paladin/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/paladin/_knop/_inventory/inventory.ttl> .
+
+<ontology/paladin/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/primaryAbility/_knop> .
+
+<ontology/primaryAbility/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/primaryAbility/_knop/_inventory/inventory.ttl> .
+
+<ontology/primaryAbility/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/ranger/_knop> .
+
+<ontology/ranger/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/ranger/_knop/_inventory/inventory.ttl> .
+
+<ontology/ranger/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/rogue/_knop> .
+
+<ontology/rogue/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/rogue/_knop/_inventory/inventory.ttl> .
+
+<ontology/rogue/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/scoreValue/_knop> .
+
+<ontology/scoreValue/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/scoreValue/_knop/_inventory/inventory.ttl> .
+
+<ontology/scoreValue/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/sorcerer/_knop> .
+
+<ontology/sorcerer/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/sorcerer/_knop/_inventory/inventory.ttl> .
+
+<ontology/sorcerer/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/strength/_knop> .
+
+<ontology/strength/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/strength/_knop/_inventory/inventory.ttl> .
+
+<ontology/strength/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/warlock/_knop> .
+
+<ontology/warlock/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/warlock/_knop/_inventory/inventory.ttl> .
+
+<ontology/warlock/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/wisdom/_knop> .
+
+<ontology/wisdom/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/wisdom/_knop/_inventory/inventory.ttl> .
+
+<ontology/wisdom/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/wizard/_knop> .
+
+<ontology/wizard/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/wizard/_knop/_inventory/inventory.ttl> .
+
+<ontology/wizard/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/AbilityScoreShape/_knop> .
+
+<ontology/AbilityScoreShape/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/AbilityScoreShape/_knop/_inventory/inventory.ttl> .
+
+<ontology/AbilityScoreShape/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/BarbarianPrimaryAbilityChoice/_knop> .
+
+<ontology/BarbarianPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/BarbarianPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/BarbarianPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/BardPrimaryAbilityChoice/_knop> .
+
+<ontology/BardPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/BardPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/BardPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/CharacterPrimaryAbilityByClassShape/_knop> .
+
+<ontology/CharacterPrimaryAbilityByClassShape/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/CharacterPrimaryAbilityByClassShape/_knop/_inventory/inventory.ttl> .
+
+<ontology/CharacterPrimaryAbilityByClassShape/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/ClericPrimaryAbilityChoice/_knop> .
+
+<ontology/ClericPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/ClericPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/ClericPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/DruidPrimaryAbilityChoice/_knop> .
+
+<ontology/DruidPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/DruidPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/DruidPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/FighterPrimaryAbilityChoice/_knop> .
+
+<ontology/FighterPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/FighterPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/FighterPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/MonkPrimaryAbilityChoice/_knop> .
+
+<ontology/MonkPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/MonkPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/MonkPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/PaladinPrimaryAbilityChoice/_knop> .
+
+<ontology/PaladinPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/PaladinPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/PaladinPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/RangerPrimaryAbilityChoice/_knop> .
+
+<ontology/RangerPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/RangerPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/RangerPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/RoguePrimaryAbilityChoice/_knop> .
+
+<ontology/RoguePrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/RoguePrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/RoguePrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/SorcererPrimaryAbilityChoice/_knop> .
+
+<ontology/SorcererPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/SorcererPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/SorcererPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/WarlockPrimaryAbilityChoice/_knop> .
+
+<ontology/WarlockPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/WarlockPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/WarlockPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/WizardPrimaryAbilityChoice/_knop> .
+
+<ontology/WizardPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/WizardPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+
+<ontology/WizardPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <examples/gunaar/ability-score/charisma/_knop> .
+
+<examples/gunaar/ability-score/charisma/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/gunaar/ability-score/charisma/_knop/_inventory/inventory.ttl> .
+
+<examples/gunaar/ability-score/charisma/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <examples/gunaar/ability-score/constitution/_knop> .
+
+<examples/gunaar/ability-score/constitution/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/gunaar/ability-score/constitution/_knop/_inventory/inventory.ttl> .
+
+<examples/gunaar/ability-score/constitution/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <examples/gunaar/ability-score/dexterity/_knop> .
+
+<examples/gunaar/ability-score/dexterity/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/gunaar/ability-score/dexterity/_knop/_inventory/inventory.ttl> .
+
+<examples/gunaar/ability-score/dexterity/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <examples/gunaar/ability-score/intelligence/_knop> .
+
+<examples/gunaar/ability-score/intelligence/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/gunaar/ability-score/intelligence/_knop/_inventory/inventory.ttl> .
+
+<examples/gunaar/ability-score/intelligence/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <examples/gunaar/ability-score/strength/_knop> .
+
+<examples/gunaar/ability-score/strength/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/gunaar/ability-score/strength/_knop/_inventory/inventory.ttl> .
+
+<examples/gunaar/ability-score/strength/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <examples/gunaar/ability-score/wisdom/_knop> .
+
+<examples/gunaar/ability-score/wisdom/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/gunaar/ability-score/wisdom/_knop/_inventory/inventory.ttl> .
+
+<examples/gunaar/ability-score/wisdom/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/_knop> .
+
+<examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/_knop/_inventory/inventory.ttl> .
+
+<examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/releases/v0.0.2/_knop> .
+
+<ontology/releases/v0.0.2/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/releases/v0.0.2/_knop/_inventory/inventory.ttl> .
+
+<ontology/releases/v0.0.2/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .

@@ -1,0 +1,6 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/Alignment/chaoticEvil/_knop> a sflo:Knop ;
+  sflo:designatorPath "ontology/Alignment/chaoticEvil" ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/chaoticEvil/_knop/_inventory/inventory.ttl> .

@@ -1,0 +1,6 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/charisma/_knop> a sflo:Knop ;
+  sflo:designatorPath "ontology/charisma" ;
+  sflo:hasWorkingKnopInventoryFile <ontology/charisma/_knop/_inventory/inventory.ttl> .

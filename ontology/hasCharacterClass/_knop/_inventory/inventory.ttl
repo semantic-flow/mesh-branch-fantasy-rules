@@ -1,0 +1,24 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/hasCharacterClass/_knop> a sflo:Knop ;
+  sflo:hasKnopMetadata <ontology/hasCharacterClass/_knop/_meta> ;
+  sflo:hasKnopInventory <ontology/hasCharacterClass/_knop/_inventory> ;
+  sflo:hasKnopSourceRegistry <ontology/hasCharacterClass/_knop/_sources> ;
+  sflo:hasExtractionSource <ontology/hasCharacterClass/_knop/_sources#extraction-source> ;
+  sflo:hasWorkingKnopInventoryFile <ontology/hasCharacterClass/_knop/_inventory/inventory.ttl> .
+
+<ontology/hasCharacterClass/_knop/_meta> a sflo:KnopMetadata, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <ontology/hasCharacterClass/_knop/_meta/meta.ttl> .
+
+<ontology/hasCharacterClass/_knop/_inventory> a sflo:KnopInventory, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <ontology/hasCharacterClass/_knop/_inventory/inventory.ttl> .
+
+<ontology/hasCharacterClass/_knop/_sources> a sflo:KnopSourceRegistry, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <ontology/hasCharacterClass/_knop/_sources/sources.ttl> .
+
+<ontology/hasCharacterClass/_knop/_meta/meta.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<ontology/hasCharacterClass/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<ontology/hasCharacterClass/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .

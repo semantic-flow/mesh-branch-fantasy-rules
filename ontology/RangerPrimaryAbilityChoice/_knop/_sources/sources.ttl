@@ -1,0 +1,14 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/RangerPrimaryAbilityChoice/_knop/_sources> a sflo:KnopSourceRegistry, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <ontology/RangerPrimaryAbilityChoice/_knop/_sources/sources.ttl> ;
+  sflo:hasSourceBinding <ontology/RangerPrimaryAbilityChoice/_knop/_sources#extraction-source> .
+
+<ontology/RangerPrimaryAbilityChoice/_knop/_sources#extraction-source> a sflo:ExtractionSource ;
+  sflo:hasTargetArtifact <shacl> ;
+  sflo:hasArtifactResolutionMode <https://semantic-flow.github.io/sflo/ontology/artifactResolutionMode_working> ;
+  sflo:observedSourceLocalRelativePath "../source/shacl/fantasy-rules-shacl.ttl" ;
+  sflo:observedSourceDigest "sha256:31211564c80fb496c0c47da840dc16c7b49b8d8c25c029b7b443dde8db3ad604" .
+
+<ontology/RangerPrimaryAbilityChoice/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .

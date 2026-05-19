@@ -1,0 +1,6 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/AbilityScoreShape/_knop> a sflo:Knop ;
+  sflo:designatorPath "ontology/AbilityScoreShape" ;
+  sflo:hasWorkingKnopInventoryFile <ontology/AbilityScoreShape/_knop/_inventory/inventory.ttl> .
