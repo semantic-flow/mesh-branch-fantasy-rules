@@ -24,7 +24,10 @@
 <ontology/Ability/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
 <ontology/Ability/_knop/_references> a sflo:ReferenceCatalog, sflo:DigitalArtifact, sflo:RdfDocument ;
-  sflo:hasWorkingLocatedFile <ontology/Ability/_knop/_references/references.ttl> .
+  sflo:hasWorkingLocatedFile <ontology/Ability/_knop/_references/references.ttl> ;
+  sflo:hasResourcePage <ontology/Ability/_knop/_references/index.html> .
+
+<ontology/Ability/_knop/_references/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <ontology/Ability/_knop/_meta/meta.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
