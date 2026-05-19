@@ -667,3 +667,499 @@
   sflo:hasWorkingKnopInventoryFile <ontology/releases/v0.0.2/_knop/_inventory/inventory.ttl> .
 
 <ontology/releases/v0.0.2/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<examples/gunaar/ability-score/charisma> sflo:hasResourcePage <examples/gunaar/ability-score/charisma/index.html> .
+
+<examples/gunaar/ability-score/charisma/_knop> sflo:hasResourcePage <examples/gunaar/ability-score/charisma/_knop/index.html> .
+
+<examples/gunaar/ability-score/charisma/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/charisma/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/constitution> sflo:hasResourcePage <examples/gunaar/ability-score/constitution/index.html> .
+
+<examples/gunaar/ability-score/constitution/_knop> sflo:hasResourcePage <examples/gunaar/ability-score/constitution/_knop/index.html> .
+
+<examples/gunaar/ability-score/constitution/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/constitution/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/dexterity> sflo:hasResourcePage <examples/gunaar/ability-score/dexterity/index.html> .
+
+<examples/gunaar/ability-score/dexterity/_knop> sflo:hasResourcePage <examples/gunaar/ability-score/dexterity/_knop/index.html> .
+
+<examples/gunaar/ability-score/dexterity/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/dexterity/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/intelligence> sflo:hasResourcePage <examples/gunaar/ability-score/intelligence/index.html> .
+
+<examples/gunaar/ability-score/intelligence/_knop> sflo:hasResourcePage <examples/gunaar/ability-score/intelligence/_knop/index.html> .
+
+<examples/gunaar/ability-score/intelligence/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/intelligence/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/strength> sflo:hasResourcePage <examples/gunaar/ability-score/strength/index.html> .
+
+<examples/gunaar/ability-score/strength/_knop> sflo:hasResourcePage <examples/gunaar/ability-score/strength/_knop/index.html> .
+
+<examples/gunaar/ability-score/strength/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/strength/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/wisdom> sflo:hasResourcePage <examples/gunaar/ability-score/wisdom/index.html> .
+
+<examples/gunaar/ability-score/wisdom/_knop> sflo:hasResourcePage <examples/gunaar/ability-score/wisdom/_knop/index.html> .
+
+<examples/gunaar/ability-score/wisdom/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/ability-score/wisdom/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00> sflo:hasResourcePage <examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/index.html> .
+
+<examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/_knop> sflo:hasResourcePage <examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/_knop/index.html> .
+
+<examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Ability> sflo:hasResourcePage <ontology/Ability/index.html> .
+
+<ontology/Ability/_knop> sflo:hasResourcePage <ontology/Ability/_knop/index.html> .
+
+<ontology/Ability/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Ability/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/AbilityScoreShape> sflo:hasResourcePage <ontology/AbilityScoreShape/index.html> .
+
+<ontology/AbilityScoreShape/_knop> sflo:hasResourcePage <ontology/AbilityScoreShape/_knop/index.html> .
+
+<ontology/AbilityScoreShape/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/AbilityScoreShape/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/chaoticEvil> sflo:hasResourcePage <ontology/Alignment/chaoticEvil/index.html> .
+
+<ontology/Alignment/chaoticEvil/_knop> sflo:hasResourcePage <ontology/Alignment/chaoticEvil/_knop/index.html> .
+
+<ontology/Alignment/chaoticEvil/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/chaoticEvil/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/chaoticGood> sflo:hasResourcePage <ontology/Alignment/chaoticGood/index.html> .
+
+<ontology/Alignment/chaoticGood/_knop> sflo:hasResourcePage <ontology/Alignment/chaoticGood/_knop/index.html> .
+
+<ontology/Alignment/chaoticGood/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/chaoticGood/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/chaoticNeutral> sflo:hasResourcePage <ontology/Alignment/chaoticNeutral/index.html> .
+
+<ontology/Alignment/chaoticNeutral/_knop> sflo:hasResourcePage <ontology/Alignment/chaoticNeutral/_knop/index.html> .
+
+<ontology/Alignment/chaoticNeutral/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/chaoticNeutral/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/lawfulEvil> sflo:hasResourcePage <ontology/Alignment/lawfulEvil/index.html> .
+
+<ontology/Alignment/lawfulEvil/_knop> sflo:hasResourcePage <ontology/Alignment/lawfulEvil/_knop/index.html> .
+
+<ontology/Alignment/lawfulEvil/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/lawfulEvil/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/lawfulGood> sflo:hasResourcePage <ontology/Alignment/lawfulGood/index.html> .
+
+<ontology/Alignment/lawfulGood/_knop> sflo:hasResourcePage <ontology/Alignment/lawfulGood/_knop/index.html> .
+
+<ontology/Alignment/lawfulGood/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/lawfulGood/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/lawfulNeutral> sflo:hasResourcePage <ontology/Alignment/lawfulNeutral/index.html> .
+
+<ontology/Alignment/lawfulNeutral/_knop> sflo:hasResourcePage <ontology/Alignment/lawfulNeutral/_knop/index.html> .
+
+<ontology/Alignment/lawfulNeutral/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/lawfulNeutral/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/neutral> sflo:hasResourcePage <ontology/Alignment/neutral/index.html> .
+
+<ontology/Alignment/neutral/_knop> sflo:hasResourcePage <ontology/Alignment/neutral/_knop/index.html> .
+
+<ontology/Alignment/neutral/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/neutral/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/neutralEvil> sflo:hasResourcePage <ontology/Alignment/neutralEvil/index.html> .
+
+<ontology/Alignment/neutralEvil/_knop> sflo:hasResourcePage <ontology/Alignment/neutralEvil/_knop/index.html> .
+
+<ontology/Alignment/neutralEvil/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/neutralEvil/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/neutralGood> sflo:hasResourcePage <ontology/Alignment/neutralGood/index.html> .
+
+<ontology/Alignment/neutralGood/_knop> sflo:hasResourcePage <ontology/Alignment/neutralGood/_knop/index.html> .
+
+<ontology/Alignment/neutralGood/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/neutralGood/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/unaligned> sflo:hasResourcePage <ontology/Alignment/unaligned/index.html> .
+
+<ontology/Alignment/unaligned/_knop> sflo:hasResourcePage <ontology/Alignment/unaligned/_knop/index.html> .
+
+<ontology/Alignment/unaligned/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/unaligned/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/AlignmentHistory> sflo:hasResourcePage <ontology/AlignmentHistory/index.html> .
+
+<ontology/AlignmentHistory/_knop> sflo:hasResourcePage <ontology/AlignmentHistory/_knop/index.html> .
+
+<ontology/AlignmentHistory/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/AlignmentHistory/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/alignmentValue> sflo:hasResourcePage <ontology/alignmentValue/index.html> .
+
+<ontology/alignmentValue/_knop> sflo:hasResourcePage <ontology/alignmentValue/_knop/index.html> .
+
+<ontology/alignmentValue/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/alignmentValue/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/barbarian> sflo:hasResourcePage <ontology/barbarian/index.html> .
+
+<ontology/barbarian/_knop> sflo:hasResourcePage <ontology/barbarian/_knop/index.html> .
+
+<ontology/barbarian/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/barbarian/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/BarbarianPrimaryAbilityChoice> sflo:hasResourcePage <ontology/BarbarianPrimaryAbilityChoice/index.html> .
+
+<ontology/BarbarianPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/BarbarianPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/BarbarianPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/BarbarianPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/bard> sflo:hasResourcePage <ontology/bard/index.html> .
+
+<ontology/bard/_knop> sflo:hasResourcePage <ontology/bard/_knop/index.html> .
+
+<ontology/bard/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/bard/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/BardPrimaryAbilityChoice> sflo:hasResourcePage <ontology/BardPrimaryAbilityChoice/index.html> .
+
+<ontology/BardPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/BardPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/BardPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/BardPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/character> sflo:hasResourcePage <ontology/character/index.html> .
+
+<ontology/character/_knop> sflo:hasResourcePage <ontology/character/_knop/index.html> .
+
+<ontology/character/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/character/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/CharacterClass> sflo:hasResourcePage <ontology/CharacterClass/index.html> .
+
+<ontology/CharacterClass/_knop> sflo:hasResourcePage <ontology/CharacterClass/_knop/index.html> .
+
+<ontology/CharacterClass/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/CharacterClass/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/CharacterPrimaryAbilityByClassShape> sflo:hasResourcePage <ontology/CharacterPrimaryAbilityByClassShape/index.html> .
+
+<ontology/CharacterPrimaryAbilityByClassShape/_knop> sflo:hasResourcePage <ontology/CharacterPrimaryAbilityByClassShape/_knop/index.html> .
+
+<ontology/CharacterPrimaryAbilityByClassShape/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/CharacterPrimaryAbilityByClassShape/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/charisma> sflo:hasResourcePage <ontology/charisma/index.html> .
+
+<ontology/charisma/_knop> sflo:hasResourcePage <ontology/charisma/_knop/index.html> .
+
+<ontology/charisma/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/charisma/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/cleric> sflo:hasResourcePage <ontology/cleric/index.html> .
+
+<ontology/cleric/_knop> sflo:hasResourcePage <ontology/cleric/_knop/index.html> .
+
+<ontology/cleric/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/cleric/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/ClericPrimaryAbilityChoice> sflo:hasResourcePage <ontology/ClericPrimaryAbilityChoice/index.html> .
+
+<ontology/ClericPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/ClericPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/ClericPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/ClericPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/constitution> sflo:hasResourcePage <ontology/constitution/index.html> .
+
+<ontology/constitution/_knop> sflo:hasResourcePage <ontology/constitution/_knop/index.html> .
+
+<ontology/constitution/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/constitution/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/dexterity> sflo:hasResourcePage <ontology/dexterity/index.html> .
+
+<ontology/dexterity/_knop> sflo:hasResourcePage <ontology/dexterity/_knop/index.html> .
+
+<ontology/dexterity/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/dexterity/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/druid> sflo:hasResourcePage <ontology/druid/index.html> .
+
+<ontology/druid/_knop> sflo:hasResourcePage <ontology/druid/_knop/index.html> .
+
+<ontology/druid/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/druid/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/DruidPrimaryAbilityChoice> sflo:hasResourcePage <ontology/DruidPrimaryAbilityChoice/index.html> .
+
+<ontology/DruidPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/DruidPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/DruidPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/DruidPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/effectiveDateTime> sflo:hasResourcePage <ontology/effectiveDateTime/index.html> .
+
+<ontology/effectiveDateTime/_knop> sflo:hasResourcePage <ontology/effectiveDateTime/_knop/index.html> .
+
+<ontology/effectiveDateTime/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/effectiveDateTime/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/fighter> sflo:hasResourcePage <ontology/fighter/index.html> .
+
+<ontology/fighter/_knop> sflo:hasResourcePage <ontology/fighter/_knop/index.html> .
+
+<ontology/fighter/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/fighter/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/FighterPrimaryAbilityChoice> sflo:hasResourcePage <ontology/FighterPrimaryAbilityChoice/index.html> .
+
+<ontology/FighterPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/FighterPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/FighterPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/FighterPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/forAbility> sflo:hasResourcePage <ontology/forAbility/index.html> .
+
+<ontology/forAbility/_knop> sflo:hasResourcePage <ontology/forAbility/_knop/index.html> .
+
+<ontology/forAbility/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/forAbility/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/hasAbilityScore> sflo:hasResourcePage <ontology/hasAbilityScore/index.html> .
+
+<ontology/hasAbilityScore/_knop> sflo:hasResourcePage <ontology/hasAbilityScore/_knop/index.html> .
+
+<ontology/hasAbilityScore/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/hasAbilityScore/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/hasAlignment> sflo:hasResourcePage <ontology/hasAlignment/index.html> .
+
+<ontology/hasAlignment/_knop> sflo:hasResourcePage <ontology/hasAlignment/_knop/index.html> .
+
+<ontology/hasAlignment/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/hasAlignment/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/hasCharacterClass> sflo:hasResourcePage <ontology/hasCharacterClass/index.html> .
+
+<ontology/hasCharacterClass/_knop> sflo:hasResourcePage <ontology/hasCharacterClass/_knop/index.html> .
+
+<ontology/hasCharacterClass/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/hasCharacterClass/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/intelligence> sflo:hasResourcePage <ontology/intelligence/index.html> .
+
+<ontology/intelligence/_knop> sflo:hasResourcePage <ontology/intelligence/_knop/index.html> .
+
+<ontology/intelligence/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/intelligence/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/level> sflo:hasResourcePage <ontology/level/index.html> .
+
+<ontology/level/_knop> sflo:hasResourcePage <ontology/level/_knop/index.html> .
+
+<ontology/level/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/level/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/monk> sflo:hasResourcePage <ontology/monk/index.html> .
+
+<ontology/monk/_knop> sflo:hasResourcePage <ontology/monk/_knop/index.html> .
+
+<ontology/monk/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/monk/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/MonkPrimaryAbilityChoice> sflo:hasResourcePage <ontology/MonkPrimaryAbilityChoice/index.html> .
+
+<ontology/MonkPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/MonkPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/MonkPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/MonkPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/paladin> sflo:hasResourcePage <ontology/paladin/index.html> .
+
+<ontology/paladin/_knop> sflo:hasResourcePage <ontology/paladin/_knop/index.html> .
+
+<ontology/paladin/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/paladin/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/PaladinPrimaryAbilityChoice> sflo:hasResourcePage <ontology/PaladinPrimaryAbilityChoice/index.html> .
+
+<ontology/PaladinPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/PaladinPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/PaladinPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/PaladinPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/primaryAbility> sflo:hasResourcePage <ontology/primaryAbility/index.html> .
+
+<ontology/primaryAbility/_knop> sflo:hasResourcePage <ontology/primaryAbility/_knop/index.html> .
+
+<ontology/primaryAbility/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/primaryAbility/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/ranger> sflo:hasResourcePage <ontology/ranger/index.html> .
+
+<ontology/ranger/_knop> sflo:hasResourcePage <ontology/ranger/_knop/index.html> .
+
+<ontology/ranger/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/ranger/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/RangerPrimaryAbilityChoice> sflo:hasResourcePage <ontology/RangerPrimaryAbilityChoice/index.html> .
+
+<ontology/RangerPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/RangerPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/RangerPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/RangerPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/rogue> sflo:hasResourcePage <ontology/rogue/index.html> .
+
+<ontology/rogue/_knop> sflo:hasResourcePage <ontology/rogue/_knop/index.html> .
+
+<ontology/rogue/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/rogue/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/RoguePrimaryAbilityChoice> sflo:hasResourcePage <ontology/RoguePrimaryAbilityChoice/index.html> .
+
+<ontology/RoguePrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/RoguePrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/RoguePrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/RoguePrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/scoreValue> sflo:hasResourcePage <ontology/scoreValue/index.html> .
+
+<ontology/scoreValue/_knop> sflo:hasResourcePage <ontology/scoreValue/_knop/index.html> .
+
+<ontology/scoreValue/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/scoreValue/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/sorcerer> sflo:hasResourcePage <ontology/sorcerer/index.html> .
+
+<ontology/sorcerer/_knop> sflo:hasResourcePage <ontology/sorcerer/_knop/index.html> .
+
+<ontology/sorcerer/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/sorcerer/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/SorcererPrimaryAbilityChoice> sflo:hasResourcePage <ontology/SorcererPrimaryAbilityChoice/index.html> .
+
+<ontology/SorcererPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/SorcererPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/SorcererPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/SorcererPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/strength> sflo:hasResourcePage <ontology/strength/index.html> .
+
+<ontology/strength/_knop> sflo:hasResourcePage <ontology/strength/_knop/index.html> .
+
+<ontology/strength/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/strength/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/warlock> sflo:hasResourcePage <ontology/warlock/index.html> .
+
+<ontology/warlock/_knop> sflo:hasResourcePage <ontology/warlock/_knop/index.html> .
+
+<ontology/warlock/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/warlock/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/WarlockPrimaryAbilityChoice> sflo:hasResourcePage <ontology/WarlockPrimaryAbilityChoice/index.html> .
+
+<ontology/WarlockPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/WarlockPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/WarlockPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/WarlockPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/wisdom> sflo:hasResourcePage <ontology/wisdom/index.html> .
+
+<ontology/wisdom/_knop> sflo:hasResourcePage <ontology/wisdom/_knop/index.html> .
+
+<ontology/wisdom/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/wisdom/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/wizard> sflo:hasResourcePage <ontology/wizard/index.html> .
+
+<ontology/wizard/_knop> sflo:hasResourcePage <ontology/wizard/_knop/index.html> .
+
+<ontology/wizard/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/wizard/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/WizardPrimaryAbilityChoice> sflo:hasResourcePage <ontology/WizardPrimaryAbilityChoice/index.html> .
+
+<ontology/WizardPrimaryAbilityChoice/_knop> sflo:hasResourcePage <ontology/WizardPrimaryAbilityChoice/_knop/index.html> .
+
+<ontology/WizardPrimaryAbilityChoice/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/WizardPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .

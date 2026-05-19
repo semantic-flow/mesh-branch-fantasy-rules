@@ -7,8 +7,10 @@
 
 <ontology/fighter/_knop/_sources#extraction-source> a sflo:ExtractionSource ;
   sflo:hasTargetArtifact <ontology> ;
-  sflo:hasArtifactResolutionMode <https://semantic-flow.github.io/sflo/ontology/artifactResolutionMode_working> ;
-  sflo:observedSourceLocalRelativePath "../source/ontology/fantasy-rules-ontology.ttl" ;
+  sflo:hasRequestedTargetState <ontology/releases/v0.0.2> ;
+  sflo:hasObservedSourceState <ontology/releases/v0.0.2> ;
+  sflo:hasObservedSourceManifestation <ontology/releases/v0.0.2/ttl> ;
+  sflo:hasObservedSourceLocatedFile <ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl> ;
   sflo:observedSourceDigest "sha256:f200a39ad022f1954d19527fa2307b1b5e29d8f3b468314488585a7b3ce8457b" .
 
 <ontology/fighter/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .

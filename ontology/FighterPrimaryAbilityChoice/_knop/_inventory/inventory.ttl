@@ -1,18 +1,22 @@
 @base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
 @prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <ontology/FighterPrimaryAbilityChoice/_knop> a sflo:Knop ;
   sflo:hasKnopMetadata <ontology/FighterPrimaryAbilityChoice/_knop/_meta> ;
   sflo:hasKnopInventory <ontology/FighterPrimaryAbilityChoice/_knop/_inventory> ;
   sflo:hasKnopSourceRegistry <ontology/FighterPrimaryAbilityChoice/_knop/_sources> ;
   sflo:hasExtractionSource <ontology/FighterPrimaryAbilityChoice/_knop/_sources#extraction-source> ;
-  sflo:hasWorkingKnopInventoryFile <ontology/FighterPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+  sflo:hasWorkingKnopInventoryFile <ontology/FighterPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> ;
+  sflo:hasResourcePage <ontology/FighterPrimaryAbilityChoice/_knop/index.html> .
 
 <ontology/FighterPrimaryAbilityChoice/_knop/_meta> a sflo:KnopMetadata, sflo:DigitalArtifact, sflo:RdfDocument ;
-  sflo:hasWorkingLocatedFile <ontology/FighterPrimaryAbilityChoice/_knop/_meta/meta.ttl> .
+  sflo:hasWorkingLocatedFile <ontology/FighterPrimaryAbilityChoice/_knop/_meta/meta.ttl> ;
+  sflo:hasResourcePage <ontology/FighterPrimaryAbilityChoice/_knop/_meta/index.html> .
 
 <ontology/FighterPrimaryAbilityChoice/_knop/_inventory> a sflo:KnopInventory, sflo:DigitalArtifact, sflo:RdfDocument ;
-  sflo:hasWorkingLocatedFile <ontology/FighterPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
+  sflo:hasWorkingLocatedFile <ontology/FighterPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> ;
+  sflo:hasResourcePage <ontology/FighterPrimaryAbilityChoice/_knop/_inventory/index.html> .
 
 <ontology/FighterPrimaryAbilityChoice/_knop/_sources> a sflo:KnopSourceRegistry, sflo:DigitalArtifact, sflo:RdfDocument ;
   sflo:hasWorkingLocatedFile <ontology/FighterPrimaryAbilityChoice/_knop/_sources/sources.ttl> .
@@ -22,3 +26,9 @@
 <ontology/FighterPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
 <ontology/FighterPrimaryAbilityChoice/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<ontology/FighterPrimaryAbilityChoice/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/FighterPrimaryAbilityChoice/_knop/_meta/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/FighterPrimaryAbilityChoice/_knop/_inventory/index.html> a sflo:ResourcePage, sflo:LocatedFile .

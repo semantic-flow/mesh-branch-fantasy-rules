@@ -7,8 +7,10 @@
 
 <examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/_knop/_sources#extraction-source> a sflo:ExtractionSource ;
   sflo:hasTargetArtifact <examples/gunaar> ;
-  sflo:hasArtifactResolutionMode <https://semantic-flow.github.io/sflo/ontology/artifactResolutionMode_working> ;
-  sflo:observedSourceLocalRelativePath "../source/examples/gunaar.ttl" ;
+  sflo:hasRequestedTargetState <examples/gunaar/_history001/_s0002> ;
+  sflo:hasObservedSourceState <examples/gunaar/_history001/_s0002> ;
+  sflo:hasObservedSourceManifestation <examples/gunaar/_history001/_s0002/ttl> ;
+  sflo:hasObservedSourceLocatedFile <examples/gunaar/_history001/_s0002/ttl/gunaar.ttl> ;
   sflo:observedSourceDigest "sha256:1bddda53ff76412a4ac980bd776c185044c96c1643ecb2b599922c27a327eb1a" .
 
 <examples/gunaar/alignment-history/2016-10-30T03-14-00-04-00/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .

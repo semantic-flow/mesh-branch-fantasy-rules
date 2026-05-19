@@ -1,18 +1,22 @@
 @base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
 @prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <ontology/sorcerer/_knop> a sflo:Knop ;
   sflo:hasKnopMetadata <ontology/sorcerer/_knop/_meta> ;
   sflo:hasKnopInventory <ontology/sorcerer/_knop/_inventory> ;
   sflo:hasKnopSourceRegistry <ontology/sorcerer/_knop/_sources> ;
   sflo:hasExtractionSource <ontology/sorcerer/_knop/_sources#extraction-source> ;
-  sflo:hasWorkingKnopInventoryFile <ontology/sorcerer/_knop/_inventory/inventory.ttl> .
+  sflo:hasWorkingKnopInventoryFile <ontology/sorcerer/_knop/_inventory/inventory.ttl> ;
+  sflo:hasResourcePage <ontology/sorcerer/_knop/index.html> .
 
 <ontology/sorcerer/_knop/_meta> a sflo:KnopMetadata, sflo:DigitalArtifact, sflo:RdfDocument ;
-  sflo:hasWorkingLocatedFile <ontology/sorcerer/_knop/_meta/meta.ttl> .
+  sflo:hasWorkingLocatedFile <ontology/sorcerer/_knop/_meta/meta.ttl> ;
+  sflo:hasResourcePage <ontology/sorcerer/_knop/_meta/index.html> .
 
 <ontology/sorcerer/_knop/_inventory> a sflo:KnopInventory, sflo:DigitalArtifact, sflo:RdfDocument ;
-  sflo:hasWorkingLocatedFile <ontology/sorcerer/_knop/_inventory/inventory.ttl> .
+  sflo:hasWorkingLocatedFile <ontology/sorcerer/_knop/_inventory/inventory.ttl> ;
+  sflo:hasResourcePage <ontology/sorcerer/_knop/_inventory/index.html> .
 
 <ontology/sorcerer/_knop/_sources> a sflo:KnopSourceRegistry, sflo:DigitalArtifact, sflo:RdfDocument ;
   sflo:hasWorkingLocatedFile <ontology/sorcerer/_knop/_sources/sources.ttl> .
@@ -22,3 +26,9 @@
 <ontology/sorcerer/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
 <ontology/sorcerer/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<ontology/sorcerer/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/sorcerer/_knop/_meta/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/sorcerer/_knop/_inventory/index.html> a sflo:ResourcePage, sflo:LocatedFile .
