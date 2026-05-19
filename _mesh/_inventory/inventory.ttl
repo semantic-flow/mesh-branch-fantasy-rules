@@ -134,3 +134,43 @@
   sflo:hasWorkingKnopInventoryFile <ontology/CharacterShape/_knop/_inventory/inventory.ttl> .
 
 <ontology/CharacterShape/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<ontology/AbilityScore> sflo:hasResourcePage <ontology/AbilityScore/index.html> .
+
+<ontology/AbilityScore/_knop> sflo:hasResourcePage <ontology/AbilityScore/_knop/index.html> .
+
+<ontology/AbilityScore/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/AbilityScore/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment> sflo:hasResourcePage <ontology/Alignment/index.html> .
+
+<ontology/Alignment/_knop> sflo:hasResourcePage <ontology/Alignment/_knop/index.html> .
+
+<ontology/Alignment/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Alignment/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Character> sflo:hasResourcePage <ontology/Character/index.html> .
+
+<ontology/Character/_knop> sflo:hasResourcePage <ontology/Character/_knop/index.html> .
+
+<ontology/Character/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/Character/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/CharacterShape> sflo:hasResourcePage <ontology/CharacterShape/index.html> .
+
+<ontology/CharacterShape/_knop> sflo:hasResourcePage <ontology/CharacterShape/_knop/index.html> .
+
+<ontology/CharacterShape/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/CharacterShape/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/PlayerCharacter> sflo:hasResourcePage <ontology/PlayerCharacter/index.html> .
+
+<ontology/PlayerCharacter/_knop> sflo:hasResourcePage <ontology/PlayerCharacter/_knop/index.html> .
+
+<ontology/PlayerCharacter/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/PlayerCharacter/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
