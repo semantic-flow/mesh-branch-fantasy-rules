@@ -12,7 +12,8 @@
 
 <shacl> a sflo:PayloadArtifact, sflo:DigitalArtifact, sflo:RdfDocument ;
   sflo:hasArtifactHistory <shacl/_history001> ;
-  sflo:currentArtifactHistory <shacl/_history001> ;
+  sflo:hasArtifactHistory <shacl/releases> ;
+  sflo:currentArtifactHistory <shacl/releases> ;
   sflo:nextHistoryOrdinal "2"^^xsd:nonNegativeInteger ;
   sflo:workingLocalRelativePath "../source/shacl/fantasy-rules-shacl.ttl" ;
   sflo:hasResourcePage <shacl/index.html> .
@@ -24,15 +25,30 @@
   sflo:nextStateOrdinal "2"^^xsd:nonNegativeInteger ;
   sflo:hasResourcePage <shacl/_history001/index.html> .
 
+<shacl/releases> a sflo:ArtifactHistory ;
+  sflo:hasHistoricalState <shacl/releases/v0.0.2> ;
+  sflo:latestHistoricalState <shacl/releases/v0.0.2> ;
+  sflo:nextStateOrdinal "1"^^xsd:nonNegativeInteger ;
+  sflo:hasResourcePage <shacl/releases/index.html> .
+
 <shacl/_history001/_s0001> a sflo:HistoricalState ;
   sflo:stateOrdinal "1"^^xsd:nonNegativeInteger ;
   sflo:hasManifestation <shacl/_history001/_s0001/ttl> ;
   sflo:locatedFileForState <shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl> ;
   sflo:hasResourcePage <shacl/_history001/_s0001/index.html> .
 
+<shacl/releases/v0.0.2> a sflo:HistoricalState ;
+  sflo:hasManifestation <shacl/releases/v0.0.2/ttl> ;
+  sflo:locatedFileForState <shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl> ;
+  sflo:hasResourcePage <shacl/releases/v0.0.2/index.html> .
+
 <shacl/_history001/_s0001/ttl> a sflo:ArtifactManifestation, sflo:RdfDocument ;
   sflo:locatedFileForManifestation <shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl> ;
   sflo:hasResourcePage <shacl/_history001/_s0001/ttl/index.html> .
+
+<shacl/releases/v0.0.2/ttl> a sflo:ArtifactManifestation, sflo:RdfDocument ;
+  sflo:locatedFileForManifestation <shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl> ;
+  sflo:hasResourcePage <shacl/releases/v0.0.2/ttl/index.html> .
 
 <shacl/_knop/_meta> a sflo:KnopMetadata, sflo:DigitalArtifact, sflo:RdfDocument ;
   sflo:hasWorkingLocatedFile <shacl/_knop/_meta/meta.ttl> ;
@@ -47,6 +63,12 @@
 
 <shacl/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
+
+
+
+
+
+
 <shacl/_knop/_meta/meta.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
 <shacl/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
@@ -55,6 +77,10 @@
 
 <shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
+<shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+
+
 <shacl/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <shacl/_history001/index.html> a sflo:ResourcePage, sflo:LocatedFile .
@@ -62,6 +88,12 @@
 <shacl/_history001/_s0001/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <shacl/_history001/_s0001/ttl/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/releases/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/releases/v0.0.2/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/releases/v0.0.2/ttl/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <shacl/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 

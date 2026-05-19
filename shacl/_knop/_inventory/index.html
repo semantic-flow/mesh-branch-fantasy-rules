@@ -170,7 +170,8 @@
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">PayloadArtifact</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">DigitalArtifact</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">RdfDocument</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasArtifactHistory</span><span style="color:#FFA657"> &#x3C;shacl/_history001></span><span style="color:#E6EDF3"> ;</span></span>
-<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">currentArtifactHistory</span><span style="color:#FFA657"> &#x3C;shacl/_history001></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasArtifactHistory</span><span style="color:#FFA657"> &#x3C;shacl/releases></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">currentArtifactHistory</span><span style="color:#FFA657"> &#x3C;shacl/releases></span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">nextHistoryOrdinal</span><span style="color:#A5D6FF"> "2"</span><span style="color:#E6EDF3">^^</span><span style="color:#FF7B72">xsd:</span><span style="color:#79C0FF">nonNegativeInteger</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">workingLocalRelativePath</span><span style="color:#A5D6FF"> "../source/shacl/fantasy-rules-shacl.ttl"</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasResourcePage</span><span style="color:#FFA657"> &#x3C;shacl/index.html></span><span style="color:#E6EDF3"> .</span></span>
@@ -182,15 +183,30 @@
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">nextStateOrdinal</span><span style="color:#A5D6FF"> "2"</span><span style="color:#E6EDF3">^^</span><span style="color:#FF7B72">xsd:</span><span style="color:#79C0FF">nonNegativeInteger</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasResourcePage</span><span style="color:#FFA657"> &#x3C;shacl/_history001/index.html></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;shacl/releases></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ArtifactHistory</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasHistoricalState</span><span style="color:#FFA657"> &#x3C;shacl/releases/v0.0.2></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">latestHistoricalState</span><span style="color:#FFA657"> &#x3C;shacl/releases/v0.0.2></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">nextStateOrdinal</span><span style="color:#A5D6FF"> "1"</span><span style="color:#E6EDF3">^^</span><span style="color:#FF7B72">xsd:</span><span style="color:#79C0FF">nonNegativeInteger</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasResourcePage</span><span style="color:#FFA657"> &#x3C;shacl/releases/index.html></span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_history001/_s0001></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">HistoricalState</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">stateOrdinal</span><span style="color:#A5D6FF"> "1"</span><span style="color:#E6EDF3">^^</span><span style="color:#FF7B72">xsd:</span><span style="color:#79C0FF">nonNegativeInteger</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasManifestation</span><span style="color:#FFA657"> &#x3C;shacl/_history001/_s0001/ttl></span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">locatedFileForState</span><span style="color:#FFA657"> &#x3C;shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl></span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasResourcePage</span><span style="color:#FFA657"> &#x3C;shacl/_history001/_s0001/index.html></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;shacl/releases/v0.0.2></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">HistoricalState</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasManifestation</span><span style="color:#FFA657"> &#x3C;shacl/releases/v0.0.2/ttl></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">locatedFileForState</span><span style="color:#FFA657"> &#x3C;shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasResourcePage</span><span style="color:#FFA657"> &#x3C;shacl/releases/v0.0.2/index.html></span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_history001/_s0001/ttl></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ArtifactManifestation</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">RdfDocument</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">locatedFileForManifestation</span><span style="color:#FFA657"> &#x3C;shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl></span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasResourcePage</span><span style="color:#FFA657"> &#x3C;shacl/_history001/_s0001/ttl/index.html></span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;shacl/releases/v0.0.2/ttl></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ArtifactManifestation</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">RdfDocument</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">locatedFileForManifestation</span><span style="color:#FFA657"> &#x3C;shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasResourcePage</span><span style="color:#FFA657"> &#x3C;shacl/releases/v0.0.2/ttl/index.html></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_knop/_meta></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">KnopMetadata</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">DigitalArtifact</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">RdfDocument</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">  sflo:</span><span style="color:#79C0FF">hasWorkingLocatedFile</span><span style="color:#FFA657"> &#x3C;shacl/_knop/_meta/meta.ttl></span><span style="color:#E6EDF3"> ;</span></span>
@@ -205,6 +221,12 @@
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_knop/_sources/sources.ttl></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">RdfDocument</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_knop/_meta/meta.ttl></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">RdfDocument</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_knop/_inventory/inventory.ttl></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">RdfDocument</span><span style="color:#E6EDF3"> .</span></span>
@@ -213,6 +235,10 @@
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">RdfDocument</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">RdfDocument</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/index.html></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ResourcePage</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_history001/index.html></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ResourcePage</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3"> .</span></span>
@@ -220,6 +246,12 @@
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_history001/_s0001/index.html></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ResourcePage</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_history001/_s0001/ttl/index.html></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ResourcePage</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;shacl/releases/index.html></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ResourcePage</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;shacl/releases/v0.0.2/index.html></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ResourcePage</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;shacl/releases/v0.0.2/ttl/index.html></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ResourcePage</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;shacl/_knop/index.html></span><span style="color:#FF7B72"> a</span><span style="color:#FF7B72"> sflo:</span><span style="color:#79C0FF">ResourcePage</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">sflo:</span><span style="color:#79C0FF">LocatedFile</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
