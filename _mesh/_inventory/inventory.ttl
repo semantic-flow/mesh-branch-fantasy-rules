@@ -63,3 +63,21 @@
 <_mesh/_config/config.ttl> a sflo:LocatedFile, sflo:RdfDocument .
 
 <_mesh/_config/_history001/_s0001/ttl/config.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/_knop> .
+
+<ontology> a sflo:PayloadArtifact, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:workingLocalRelativePath "../source/ontology/fantasy-rules-ontology.ttl" .
+
+<ontology/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/_knop/_inventory/inventory.ttl> .
+
+<ontology/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<ontology> sflo:hasResourcePage <ontology/index.html> .
+
+<ontology/_knop> sflo:hasResourcePage <ontology/_knop/index.html> .
+
+<ontology/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<ontology/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
