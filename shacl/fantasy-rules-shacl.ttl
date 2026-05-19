@@ -1,13 +1,17 @@
 @prefix fant: <https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <https://schema.org/> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl>
-    a sh:ShapesGraph ;
+    a sh:ShapesGraph, owl:Ontology ;
     dcterms:title "Fantasy Rules SHACL Shapes" ;
-    dcterms:description "A small SHACL graph for the Fantasy Rules branch-published fixture." .
+    dcterms:description "A small SHACL graph for the Fantasy Rules branch-published fixture." ;
+    owl:versionInfo "0.0.2" ;
+    owl:versionIRI <https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl> ;
+    dcterms:hasVersion <https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2> .
 
 fant:CharacterShape
     a sh:NodeShape ;

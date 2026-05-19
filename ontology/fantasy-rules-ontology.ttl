@@ -12,7 +12,9 @@
     dcterms:title "Fantasy Rules Ontology" ;
     dcterms:description "A small SRD-inspired ontology fixture for Semantic Flow branch publication." ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:hasVersion <ontology/releases/v0.0.2> ;
     dcterms:source <https://www.dndbeyond.com/srd> ;
+    owl:versionIRI <ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl> ;
     rdfs:seeAlso <https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf> .
 
 fant:Character
@@ -39,7 +41,24 @@ fant:AbilityScore
 fant:Alignment
     a owl:Class ;
     rdfs:label "Alignment" ;
-    skos:definition "A broad description of ethical attitudes and ideals." .
+    skos:definition "A broad description of ethical attitudes and ideals." ;
+    owl:oneOf (
+        <ontology/Alignment/lawfulGood>
+        <ontology/Alignment/neutralGood>
+        <ontology/Alignment/chaoticGood>
+        <ontology/Alignment/lawfulNeutral>
+        <ontology/Alignment/neutral>
+        <ontology/Alignment/chaoticNeutral>
+        <ontology/Alignment/lawfulEvil>
+        <ontology/Alignment/neutralEvil>
+        <ontology/Alignment/chaoticEvil>
+        <ontology/Alignment/unaligned>
+    ) .
+
+fant:AlignmentHistory
+    a owl:Class ;
+    rdfs:label "Alignment History" ;
+    skos:definition "A dated alignment assertion for a character." .
 
 fant:CharacterClass
     a owl:Class ;
@@ -70,6 +89,18 @@ fant:hasAlignment
     rdfs:domain fant:Character ;
     rdfs:range fant:Alignment .
 
+fant:character
+    a owl:ObjectProperty ;
+    rdfs:label "character" ;
+    rdfs:domain fant:AlignmentHistory ;
+    rdfs:range fant:Character .
+
+fant:alignmentValue
+    a owl:ObjectProperty ;
+    rdfs:label "alignment value" ;
+    rdfs:domain fant:AlignmentHistory ;
+    rdfs:range fant:Alignment .
+
 fant:hasCharacterClass
     a owl:ObjectProperty ;
     rdfs:label "has character class" ;
@@ -87,6 +118,12 @@ fant:level
     rdfs:label "level" ;
     rdfs:domain fant:Character ;
     rdfs:range xsd:integer .
+
+fant:effectiveDateTime
+    a owl:DatatypeProperty ;
+    rdfs:label "effective date time" ;
+    rdfs:domain fant:AlignmentHistory ;
+    rdfs:range xsd:dateTime .
 
 fant:strength
     a fant:Ability ;
@@ -166,14 +203,42 @@ fant:wizard
     a fant:CharacterClass ;
     rdfs:label "Wizard" .
 
-fant:lawfulGood
-    a fant:Alignment ;
+<ontology/Alignment/lawfulGood>
+    a owl:NamedIndividual, fant:Alignment ;
     rdfs:label "Lawful Good" .
 
-fant:neutral
-    a fant:Alignment ;
+<ontology/Alignment/neutralGood>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Neutral Good" .
+
+<ontology/Alignment/chaoticGood>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Chaotic Good" .
+
+<ontology/Alignment/lawfulNeutral>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Lawful Neutral" .
+
+<ontology/Alignment/neutral>
+    a owl:NamedIndividual, fant:Alignment ;
     rdfs:label "Neutral" .
 
-fant:chaoticGood
-    a fant:Alignment ;
-    rdfs:label "Chaotic Good" .
+<ontology/Alignment/chaoticNeutral>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Chaotic Neutral" .
+
+<ontology/Alignment/lawfulEvil>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Lawful Evil" .
+
+<ontology/Alignment/neutralEvil>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Neutral Evil" .
+
+<ontology/Alignment/chaoticEvil>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Chaotic Evil" .
+
+<ontology/Alignment/unaligned>
+    a owl:NamedIndividual, fant:Alignment ;
+    rdfs:label "Unaligned" .
