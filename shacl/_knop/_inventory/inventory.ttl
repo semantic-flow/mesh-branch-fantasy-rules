@@ -1,0 +1,70 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<shacl/_knop> a sflo:Knop ;
+  sflo:hasKnopMetadata <shacl/_knop/_meta> ;
+  sflo:hasKnopInventory <shacl/_knop/_inventory> ;
+  sflo:hasKnopSourceRegistry <shacl/_knop/_sources> ;
+  sflo:hasWorkingKnopInventoryFile <shacl/_knop/_inventory/inventory.ttl> ;
+  sflo:hasPayloadArtifact <shacl> ;
+  sflo:hasResourcePage <shacl/_knop/index.html> .
+
+<shacl> a sflo:PayloadArtifact, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasArtifactHistory <shacl/_history001> ;
+  sflo:currentArtifactHistory <shacl/_history001> ;
+  sflo:nextHistoryOrdinal "2"^^xsd:nonNegativeInteger ;
+  sflo:workingLocalRelativePath "../source/shacl/fantasy-rules-shacl.ttl" ;
+  sflo:hasResourcePage <shacl/index.html> .
+
+<shacl/_history001> a sflo:ArtifactHistory ;
+  sflo:historyOrdinal "1"^^xsd:nonNegativeInteger ;
+  sflo:hasHistoricalState <shacl/_history001/_s0001> ;
+  sflo:latestHistoricalState <shacl/_history001/_s0001> ;
+  sflo:nextStateOrdinal "2"^^xsd:nonNegativeInteger ;
+  sflo:hasResourcePage <shacl/_history001/index.html> .
+
+<shacl/_history001/_s0001> a sflo:HistoricalState ;
+  sflo:stateOrdinal "1"^^xsd:nonNegativeInteger ;
+  sflo:hasManifestation <shacl/_history001/_s0001/ttl> ;
+  sflo:locatedFileForState <shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl> ;
+  sflo:hasResourcePage <shacl/_history001/_s0001/index.html> .
+
+<shacl/_history001/_s0001/ttl> a sflo:ArtifactManifestation, sflo:RdfDocument ;
+  sflo:locatedFileForManifestation <shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl> ;
+  sflo:hasResourcePage <shacl/_history001/_s0001/ttl/index.html> .
+
+<shacl/_knop/_meta> a sflo:KnopMetadata, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <shacl/_knop/_meta/meta.ttl> ;
+  sflo:hasResourcePage <shacl/_knop/_meta/index.html> .
+
+<shacl/_knop/_inventory> a sflo:KnopInventory, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <shacl/_knop/_inventory/inventory.ttl> ;
+  sflo:hasResourcePage <shacl/_knop/_inventory/index.html> .
+
+<shacl/_knop/_sources> a sflo:KnopSourceRegistry, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <shacl/_knop/_sources/sources.ttl> .
+
+<shacl/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<shacl/_knop/_meta/meta.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<shacl/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+
+
+<shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<shacl/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/_history001/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/_history001/_s0001/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/_history001/_s0001/ttl/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/_knop/_meta/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/_knop/_inventory/index.html> a sflo:ResourcePage, sflo:LocatedFile .

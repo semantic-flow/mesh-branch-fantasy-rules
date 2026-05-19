@@ -81,3 +81,21 @@
 <ontology/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <ontology/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<_mesh> sflo:hasKnop <shacl/_knop> .
+
+<shacl> a sflo:PayloadArtifact, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:workingLocalRelativePath "../source/shacl/fantasy-rules-shacl.ttl" .
+
+<shacl/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <shacl/_knop/_inventory/inventory.ttl> .
+
+<shacl/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<shacl> sflo:hasResourcePage <shacl/index.html> .
+
+<shacl/_knop> sflo:hasResourcePage <shacl/_knop/index.html> .
+
+<shacl/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<shacl/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .

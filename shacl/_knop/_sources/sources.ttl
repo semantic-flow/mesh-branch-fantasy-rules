@@ -1,0 +1,13 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<shacl/_knop/_sources> a sflo:KnopSourceRegistry, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <shacl/_knop/_sources/sources.ttl> ;
+  sflo:hasSourceBinding <shacl/_knop/_sources#payload-source> .
+
+<shacl/_knop/_sources#payload-source> a sflo:ArtifactResolutionTarget ;
+  sflo:hasTargetArtifact <https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl> ;
+  sflo:targetLocalRelativePath "../source/shacl/fantasy-rules-shacl.ttl" ;
+  sflo:hasArtifactResolutionMode <https://semantic-flow.github.io/sflo/ontology/artifactResolutionMode_working> .
+
+<shacl/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .
