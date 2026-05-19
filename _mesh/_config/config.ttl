@@ -1,3 +1,5 @@
-@prefix sfcfg: <https://semantic-flow.github.io/ontology/config/> .
+@prefix sfcfg: <https://semantic-flow.github.io/sflo/config/> .
 
-<> a sfcfg:MeshConfig .
+<> a sfcfg:MeshConfig ;
+  sfcfg:workspaceRootRelativeToMeshRoot "../" ;
+  sfcfg:hasPublicationProfile sfcfg:publicationProfile_githubPages .
