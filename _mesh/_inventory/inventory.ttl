@@ -208,3 +208,21 @@
 <examples/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <examples/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<_mesh> sflo:hasKnop <examples/gunaar/_knop> .
+
+<examples/gunaar> a sflo:PayloadArtifact, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:workingLocalRelativePath "../source/examples/gunaar.ttl" .
+
+<examples/gunaar/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/gunaar/_knop/_inventory/inventory.ttl> .
+
+<examples/gunaar/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<examples/gunaar> sflo:hasResourcePage <examples/gunaar/index.html> .
+
+<examples/gunaar/_knop> sflo:hasResourcePage <examples/gunaar/_knop/index.html> .
+
+<examples/gunaar/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/gunaar/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .

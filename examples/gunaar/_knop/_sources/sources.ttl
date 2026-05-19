@@ -1,0 +1,13 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<examples/gunaar/_knop/_sources> a sflo:KnopSourceRegistry, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <examples/gunaar/_knop/_sources/sources.ttl> ;
+  sflo:hasSourceBinding <examples/gunaar/_knop/_sources#payload-source> .
+
+<examples/gunaar/_knop/_sources#payload-source> a sflo:ArtifactResolutionTarget ;
+  sflo:hasTargetArtifact <https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/gunaar> ;
+  sflo:targetLocalRelativePath "../source/examples/gunaar.ttl" ;
+  sflo:hasArtifactResolutionMode <https://semantic-flow.github.io/sflo/ontology/artifactResolutionMode_working> .
+
+<examples/gunaar/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .
