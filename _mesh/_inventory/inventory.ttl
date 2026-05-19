@@ -99,3 +99,38 @@
 <shacl/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <shacl/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<_mesh> sflo:hasKnop <ontology/AbilityScore/_knop> .
+
+<ontology/AbilityScore/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/AbilityScore/_knop/_inventory/inventory.ttl> .
+
+<ontology/AbilityScore/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Alignment/_knop> .
+
+<ontology/Alignment/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Alignment/_knop/_inventory/inventory.ttl> .
+
+<ontology/Alignment/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/Character/_knop> .
+
+<ontology/Character/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/Character/_knop/_inventory/inventory.ttl> .
+
+<ontology/Character/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/PlayerCharacter/_knop> .
+
+<ontology/PlayerCharacter/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/PlayerCharacter/_knop/_inventory/inventory.ttl> .
+
+<ontology/PlayerCharacter/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<_mesh> sflo:hasKnop <ontology/CharacterShape/_knop> .
+
+<ontology/CharacterShape/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <ontology/CharacterShape/_knop/_inventory/inventory.ttl> .
+
+<ontology/CharacterShape/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
