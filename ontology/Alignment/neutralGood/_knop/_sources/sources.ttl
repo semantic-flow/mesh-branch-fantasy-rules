@@ -7,13 +7,15 @@
 
 <ontology/Alignment/neutralGood/_knop/_sources#extraction-source> a sflo:ExtractionSource ;
   sflo:targetArtifact <ontology> ;
-  sflo:hasArtifactResolutionMode <https://semantic-flow.github.io/sflo/ontology/artifactResolutionMode_working> ;
+  sflo:targetHistoricalState <ontology/releases/v0.0.2> ;
   sflo:hasResolutionObservation <ontology/Alignment/neutralGood/_knop/_sources#extraction-source-observation-001> .
 
 <ontology/Alignment/neutralGood/_knop/_sources#extraction-source-observation-001> a sflo:ArtifactResolutionObservation ;
   sflo:observedArtifactResolutionSpec [
     a sflo:ArtifactResolutionSpec ;
-    sflo:targetLocalRelativePath "../source/ontology/fantasy-rules-ontology.ttl"
+    sflo:targetHistoricalState <ontology/releases/v0.0.2> ;
+    sflo:targetManifestation <ontology/releases/v0.0.2/ttl> ;
+    sflo:targetLocatedFile <ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl>
   ] ;
   sflo:observedContentDigest "sha256:f200a39ad022f1954d19527fa2307b1b5e29d8f3b468314488585a7b3ce8457b" .
 
