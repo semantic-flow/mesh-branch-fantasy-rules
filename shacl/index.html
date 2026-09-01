@@ -121,7 +121,7 @@
         </div>
         <div class="wf-hero">
         <h1>Fantasy Rules SHACL Shapes</h1>
-        <p class="wf-classes">a <a href="http://www.w3.org/ns/shacl#ShapesGraph">sh:ShapesGraph</a></p>
+        <p class="wf-classes">a <a href="http://www.w3.org/2002/07/owl#Ontology">owl:Ontology</a>, <a href="http://www.w3.org/ns/shacl#ShapesGraph">sh:ShapesGraph</a></p>
         <p class="wf-summary">A small SHACL graph for the Fantasy Rules branch-published fixture.</p>
         <table class="wf-metadata wf-hero-metadata">
           <colgroup>
@@ -139,12 +139,26 @@
         </div>
       </header>
     <section class="wf-section">
+      <details class="wf-children" open>
+        <summary>Child Identifiers</summary>
+        <table class="wf-metadata">
+          <tbody>
+          <tr><th scope="row">Individuals</th><td><div class="wf-child-identifiers"><nobr><a class="wf-child-identifier" href="/mesh-branch-fantasy-rules/shacl/releases">releases</a></nobr></div></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </section>
+    <section class="wf-section">
       <details class="wf-properties" open>
         <summary>Properties</summary>
         <table class="wf-metadata">
           <tbody>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">dcterms:description</a></th><td><span>A small SHACL graph for the Fantasy Rules branch-published fixture.</span></td></tr>
+          <tr><th scope="row"><a class="wf-term wf-term-link" href="http://purl.org/dc/terms/hasVersion" title="http://purl.org/dc/terms/hasVersion">dcterms:hasVersion</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2">https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">dcterms:title</a></th><td><span>Fantasy Rules SHACL Shapes</span></td></tr>
+          <tr><th scope="row"><a class="wf-term wf-term-link" href="http://www.w3.org/2002/07/owl#versionInfo" title="http://www.w3.org/2002/07/owl#versionInfo">owl:versionInfo</a></th><td><span>0.0.2</span></td></tr>
+          <tr><th scope="row"><a class="wf-term wf-term-link" href="http://www.w3.org/2002/07/owl#versionIRI" title="http://www.w3.org/2002/07/owl#versionIRI">owl:versionIRI</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl">https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl</a></td></tr>
+          <tr><th scope="row"><a class="wf-term wf-term-link" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></th><td><a href="http://www.w3.org/2002/07/owl#Ontology">owl:Ontology</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></th><td><a href="http://www.w3.org/ns/shacl#ShapesGraph">sh:ShapesGraph</a></td></tr>
           </tbody>
         </table>
@@ -155,19 +169,23 @@
       <details open>
         <summary>Latest historical manifestation file</summary>
         <div class="wf-source-meta">
-          <span>shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl</span>
-          <a href="/mesh-branch-fantasy-rules/shacl/_history001/_s0001/ttl/fantasy-rules-shacl.ttl">Raw file</a>
+          <span>shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl</span>
+          <a href="/mesh-branch-fantasy-rules/shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl">Raw file</a>
         </div>
 <pre class="shiki github-dark-default" style="background-color:#0d1117;color:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#FF7B72">@prefix fant:</span><span style="color:#FFA657"> &#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"><span style="color:#FF7B72">@prefix dcterms:</span><span style="color:#FFA657"> &#x3C;http://purl.org/dc/terms/></span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"><span style="color:#FF7B72">@prefix owl:</span><span style="color:#FFA657"> &#x3C;http://www.w3.org/2002/07/owl#></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"><span style="color:#FF7B72">@prefix schema:</span><span style="color:#FFA657"> &#x3C;https://schema.org/></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"><span style="color:#FF7B72">@prefix sh:</span><span style="color:#FFA657"> &#x3C;http://www.w3.org/ns/shacl#></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"><span style="color:#FF7B72">@prefix xsd:</span><span style="color:#FFA657"> &#x3C;http://www.w3.org/2001/XMLSchema#></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl></span></span>
-<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> sh:</span><span style="color:#79C0FF">ShapesGraph</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> sh:</span><span style="color:#79C0FF">ShapesGraph</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">owl:</span><span style="color:#79C0FF">Ontology</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    dcterms:</span><span style="color:#79C0FF">title</span><span style="color:#A5D6FF"> "Fantasy Rules SHACL Shapes"</span><span style="color:#E6EDF3"> ;</span></span>
-<span class="line"><span style="color:#FF7B72">    dcterms:</span><span style="color:#79C0FF">description</span><span style="color:#A5D6FF"> "A small SHACL graph for the Fantasy Rules branch-published fixture."</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"><span style="color:#FF7B72">    dcterms:</span><span style="color:#79C0FF">description</span><span style="color:#A5D6FF"> "A small SHACL graph for the Fantasy Rules branch-published fixture."</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    owl:</span><span style="color:#79C0FF">versionInfo</span><span style="color:#A5D6FF"> "0.0.2"</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    owl:</span><span style="color:#79C0FF">versionIRI</span><span style="color:#FFA657"> &#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    dcterms:</span><span style="color:#79C0FF">hasVersion</span><span style="color:#FFA657"> &#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">CharacterShape</span></span>
 <span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> sh:</span><span style="color:#79C0FF">NodeShape</span><span style="color:#E6EDF3"> ;</span></span>
@@ -496,6 +514,20 @@
         <summary>History</summary>
         <div class="wf-history-tree">
           <details class="wf-history-node wf-history-node--history" open>
+            <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/shacl/releases">shacl/releases</a></summary>
+            <details class="wf-history-node wf-history-node--state" open>
+              <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/shacl/releases/v0.0.2">v0.0.2</a></summary>
+              <details class="wf-history-node wf-history-node--manifestation" open>
+                <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/shacl/releases/v0.0.2/ttl">ttl</a></summary>
+                <div class="wf-history-node wf-history-node--file">
+                  <div class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl" class="wf-history-file-iri">https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl</a></div>
+                </div>
+              </details>
+            </details>
+          </details>
+        </div>
+        <div class="wf-history-tree">
+          <details class="wf-history-node wf-history-node--history" open>
             <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/shacl/_history001">shacl/_history001</a></summary>
             <details class="wf-history-node wf-history-node--state" open>
               <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/shacl/_history001/_s0001">_s0001</a></summary>
@@ -514,7 +546,7 @@
     </article>
   </main>
   <footer class="wf-generated">
-    Generated on <span class="wf-term wf-date-tip" tabindex="0" title="2026-09-01T05:19:50.379Z" data-tooltip="2026-09-01T05:19:50.379Z">September 1, 2026</span> by <a href="https://github.com/semantic-flow/weave/">Weave</a>
+    Generated on <span class="wf-term wf-date-tip" tabindex="0" title="2026-09-01T05:20:01.270Z" data-tooltip="2026-09-01T05:20:01.270Z">September 1, 2026</span> by <a href="https://github.com/semantic-flow/weave/">Weave</a>
   </footer>
 </body>
 </html>

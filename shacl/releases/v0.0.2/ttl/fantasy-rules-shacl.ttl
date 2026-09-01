@@ -1,0 +1,335 @@
+@prefix fant: <https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl>
+    a sh:ShapesGraph, owl:Ontology ;
+    dcterms:title "Fantasy Rules SHACL Shapes" ;
+    dcterms:description "A small SHACL graph for the Fantasy Rules branch-published fixture." ;
+    owl:versionInfo "0.0.2" ;
+    owl:versionIRI <https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2/ttl/fantasy-rules-shacl.ttl> ;
+    dcterms:hasVersion <https://semantic-flow.github.io/mesh-branch-fantasy-rules/shacl/releases/v0.0.2> .
+
+fant:CharacterShape
+    a sh:NodeShape ;
+    sh:targetClass fant:Character ;
+    sh:property [
+        sh:path fant:hasAbilityScore ;
+        sh:class fant:AbilityScore ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:class fant:CharacterClass ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:class fant:Ability ;
+        sh:minCount 1 ;
+        sh:maxCount 2 ;
+    ] ;
+    sh:property [
+        sh:path fant:hasAlignment ;
+        sh:class fant:Alignment ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path schema:characterName ;
+        sh:datatype xsd:string ;
+        sh:description "Optional display name for a character." ;
+    ] ;
+    sh:property [
+        sh:path fant:level ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 20 ;
+        sh:maxCount 1 ;
+    ] .
+
+fant:CharacterPrimaryAbilityByClassShape
+    a sh:NodeShape ;
+    sh:targetClass fant:Character ;
+    sh:or (
+        fant:BarbarianPrimaryAbilityChoice
+        fant:BardPrimaryAbilityChoice
+        fant:ClericPrimaryAbilityChoice
+        fant:DruidPrimaryAbilityChoice
+        fant:FighterPrimaryAbilityChoice
+        fant:MonkPrimaryAbilityChoice
+        fant:PaladinPrimaryAbilityChoice
+        fant:RangerPrimaryAbilityChoice
+        fant:RoguePrimaryAbilityChoice
+        fant:SorcererPrimaryAbilityChoice
+        fant:WarlockPrimaryAbilityChoice
+        fant:WizardPrimaryAbilityChoice
+    ) .
+
+fant:BarbarianPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:barbarian ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:hasValue fant:strength ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+fant:BardPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:bard ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:hasValue fant:charisma ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+fant:ClericPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:cleric ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:hasValue fant:wisdom ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+fant:DruidPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:druid ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:hasValue fant:wisdom ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+fant:FighterPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:description "Fighter characters choose Strength or Dexterity as their primary ability." ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:fighter ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:or (
+        [
+            sh:property [
+                sh:path fant:primaryAbility ;
+                sh:hasValue fant:strength ;
+                sh:minCount 1 ;
+                sh:maxCount 1 ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path fant:primaryAbility ;
+                sh:hasValue fant:dexterity ;
+                sh:minCount 1 ;
+                sh:maxCount 1 ;
+            ]
+        ]
+    ) .
+
+fant:MonkPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:description "Monk characters use Dexterity and Wisdom as primary abilities." ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:monk ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:and (
+        [
+            sh:property [
+                sh:path fant:primaryAbility ;
+                sh:hasValue fant:dexterity ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path fant:primaryAbility ;
+                sh:hasValue fant:wisdom ;
+            ]
+        ]
+    ) ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:in (
+            fant:dexterity
+            fant:wisdom
+        ) ;
+        sh:minCount 2 ;
+        sh:maxCount 2 ;
+    ] .
+
+fant:PaladinPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:description "Paladin characters use Strength and Charisma as primary abilities." ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:paladin ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:and (
+        [
+            sh:property [
+                sh:path fant:primaryAbility ;
+                sh:hasValue fant:strength ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path fant:primaryAbility ;
+                sh:hasValue fant:charisma ;
+            ]
+        ]
+    ) ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:in (
+            fant:strength
+            fant:charisma
+        ) ;
+        sh:minCount 2 ;
+        sh:maxCount 2 ;
+    ] .
+
+fant:RangerPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:description "Ranger characters use Dexterity and Wisdom as primary abilities." ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:ranger ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:and (
+        [
+            sh:property [
+                sh:path fant:primaryAbility ;
+                sh:hasValue fant:dexterity ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path fant:primaryAbility ;
+                sh:hasValue fant:wisdom ;
+            ]
+        ]
+    ) ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:in (
+            fant:dexterity
+            fant:wisdom
+        ) ;
+        sh:minCount 2 ;
+        sh:maxCount 2 ;
+    ] .
+
+fant:RoguePrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:rogue ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:hasValue fant:dexterity ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+fant:SorcererPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:sorcerer ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:hasValue fant:charisma ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+fant:WarlockPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:warlock ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:hasValue fant:charisma ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+fant:WizardPrimaryAbilityChoice
+    a sh:NodeShape ;
+    sh:property [
+        sh:path fant:hasCharacterClass ;
+        sh:hasValue fant:wizard ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:primaryAbility ;
+        sh:hasValue fant:intelligence ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+fant:AbilityScoreShape
+    a sh:NodeShape ;
+    sh:targetClass fant:AbilityScore ;
+    sh:property [
+        sh:path fant:forAbility ;
+        sh:class fant:Ability ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path fant:scoreValue ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 30 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .

@@ -144,6 +144,7 @@
         <table class="wf-metadata">
           <tbody>
           <tr><th scope="row">Classes</th><td><div class="wf-child-identifiers"><nobr><a class="wf-child-identifier" href="/mesh-branch-fantasy-rules/ontology/AbilityScore">AbilityScore</a></nobr><nobr><a class="wf-child-identifier" href="/mesh-branch-fantasy-rules/ontology/Alignment">Alignment</a></nobr><nobr><a class="wf-child-identifier" href="/mesh-branch-fantasy-rules/ontology/Character">Character</a></nobr><nobr><a class="wf-child-identifier" href="/mesh-branch-fantasy-rules/ontology/PlayerCharacter">PlayerCharacter</a></nobr></div></td></tr>
+          <tr><th scope="row">Individuals</th><td><div class="wf-child-identifiers"><nobr><a class="wf-child-identifier" href="/mesh-branch-fantasy-rules/ontology/releases">releases</a></nobr></div></td></tr>
           <tr><th scope="row">Node Shapes</th><td><div class="wf-child-identifiers"><nobr><a class="wf-child-identifier" href="/mesh-branch-fantasy-rules/ontology/CharacterShape">CharacterShape</a></nobr></div></td></tr>
           </tbody>
         </table>
@@ -155,9 +156,11 @@
         <table class="wf-metadata">
           <tbody>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">dcterms:description</a></th><td><span>A small SRD-inspired ontology fixture for Semantic Flow branch publication.</span></td></tr>
+          <tr><th scope="row"><a class="wf-term wf-term-link" href="http://purl.org/dc/terms/hasVersion" title="http://purl.org/dc/terms/hasVersion">dcterms:hasVersion</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/releases/v0.0.2">https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/releases/v0.0.2</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://purl.org/dc/terms/license" title="http://purl.org/dc/terms/license">dcterms:license</a></th><td><a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://purl.org/dc/terms/source" title="http://purl.org/dc/terms/source">dcterms:source</a></th><td><a href="https://www.dndbeyond.com/srd">https://www.dndbeyond.com/srd</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">dcterms:title</a></th><td><span>Fantasy Rules Ontology</span></td></tr>
+          <tr><th scope="row"><a class="wf-term wf-term-link" href="http://www.w3.org/2002/07/owl#versionIRI" title="http://www.w3.org/2002/07/owl#versionIRI">owl:versionIRI</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl">https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></th><td><a href="http://www.w3.org/2002/07/owl#Ontology">owl:Ontology</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://www.w3.org/2000/01/rdf-schema#seeAlso" title="http://www.w3.org/2000/01/rdf-schema#seeAlso">rdfs:seeAlso</a></th><td><a href="https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf">https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf</a></td></tr>
           </tbody>
@@ -169,8 +172,8 @@
       <details open>
         <summary>Latest historical manifestation file</summary>
         <div class="wf-source-meta">
-          <span>ontology/_history001/_s0001/ttl/fantasy-rules-ontology.ttl</span>
-          <a href="/mesh-branch-fantasy-rules/ontology/_history001/_s0001/ttl/fantasy-rules-ontology.ttl">Raw file</a>
+          <span>ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl</span>
+          <a href="/mesh-branch-fantasy-rules/ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl">Raw file</a>
         </div>
 <pre class="shiki github-dark-default" style="background-color:#0d1117;color:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#FF7B72">@base </span><span style="color:#FFA657">&#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"><span style="color:#FF7B72">@prefix fant:</span><span style="color:#FFA657"> &#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/></span><span style="color:#E6EDF3"> .</span></span>
@@ -186,7 +189,9 @@
 <span class="line"><span style="color:#FF7B72">    dcterms:</span><span style="color:#79C0FF">title</span><span style="color:#A5D6FF"> "Fantasy Rules Ontology"</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    dcterms:</span><span style="color:#79C0FF">description</span><span style="color:#A5D6FF"> "A small SRD-inspired ontology fixture for Semantic Flow branch publication."</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    dcterms:</span><span style="color:#79C0FF">license</span><span style="color:#FFA657"> &#x3C;https://creativecommons.org/licenses/by/4.0/></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    dcterms:</span><span style="color:#79C0FF">hasVersion</span><span style="color:#FFA657"> &#x3C;ontology/releases/v0.0.2></span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    dcterms:</span><span style="color:#79C0FF">source</span><span style="color:#FFA657"> &#x3C;https://www.dndbeyond.com/srd></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    owl:</span><span style="color:#79C0FF">versionIRI</span><span style="color:#FFA657"> &#x3C;ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl></span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">seeAlso</span><span style="color:#FFA657"> &#x3C;https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Character</span></span>
@@ -213,7 +218,24 @@
 <span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span></span>
 <span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">Class</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Alignment"</span><span style="color:#E6EDF3"> ;</span></span>
-<span class="line"><span style="color:#FF7B72">    skos:</span><span style="color:#79C0FF">definition</span><span style="color:#A5D6FF"> "A broad description of ethical attitudes and ideals."</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"><span style="color:#FF7B72">    skos:</span><span style="color:#79C0FF">definition</span><span style="color:#A5D6FF"> "A broad description of ethical attitudes and ideals."</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    owl:</span><span style="color:#79C0FF">oneOf</span><span style="color:#E6EDF3"> (</span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/lawfulGood></span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/neutralGood></span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/chaoticGood></span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/lawfulNeutral></span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/neutral></span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/chaoticNeutral></span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/lawfulEvil></span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/neutralEvil></span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/chaoticEvil></span></span>
+<span class="line"><span style="color:#FFA657">        &#x3C;ontology/Alignment/unaligned></span></span>
+<span class="line"><span style="color:#E6EDF3">    ) .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">AlignmentHistory</span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">Class</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Alignment History"</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    skos:</span><span style="color:#79C0FF">definition</span><span style="color:#A5D6FF"> "A dated alignment assertion for a character."</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">CharacterClass</span></span>
 <span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">Class</span><span style="color:#E6EDF3"> ;</span></span>
@@ -244,6 +266,18 @@
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">domain</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">Character</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">range</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
+<span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">character</span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">ObjectProperty</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "character"</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">domain</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">AlignmentHistory</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">range</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">Character</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">alignmentValue</span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">ObjectProperty</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "alignment value"</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">domain</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">AlignmentHistory</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">range</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
 <span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">hasCharacterClass</span></span>
 <span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">ObjectProperty</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "has character class"</span><span style="color:#E6EDF3"> ;</span></span>
@@ -261,6 +295,12 @@
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "level"</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">domain</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">Character</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">range</span><span style="color:#FF7B72"> xsd:</span><span style="color:#79C0FF">integer</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">effectiveDateTime</span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">DatatypeProperty</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "effective date time"</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">domain</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">AlignmentHistory</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">range</span><span style="color:#FF7B72"> xsd:</span><span style="color:#79C0FF">dateTime</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">strength</span></span>
 <span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">Ability</span><span style="color:#E6EDF3"> ;</span></span>
@@ -340,22 +380,64 @@
 <span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">CharacterClass</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Wizard"</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">lawfulGood</span></span>
-<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/lawfulGood></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Lawful Good"</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">neutral</span></span>
-<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/neutralGood></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Neutral Good"</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/chaoticGood></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Chaotic Good"</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/lawfulNeutral></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Lawful Neutral"</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/neutral></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Neutral"</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">chaoticGood</span></span>
-<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
-<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Chaotic Good"</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/chaoticNeutral></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Chaotic Neutral"</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/lawfulEvil></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Lawful Evil"</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/neutralEvil></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Neutral Evil"</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/chaoticEvil></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Chaotic Evil"</span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;ontology/Alignment/unaligned></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> owl:</span><span style="color:#79C0FF">NamedIndividual</span><span style="color:#E6EDF3">, </span><span style="color:#FF7B72">fant:</span><span style="color:#79C0FF">Alignment</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    rdfs:</span><span style="color:#79C0FF">label</span><span style="color:#A5D6FF"> "Unaligned"</span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span></code></pre>
       </details>
     </section>    <section class="wf-section">
       <details class="wf-history">
         <summary>History</summary>
+        <div class="wf-history-tree">
+          <details class="wf-history-node wf-history-node--history" open>
+            <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/ontology/releases">ontology/releases</a></summary>
+            <details class="wf-history-node wf-history-node--state" open>
+              <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/ontology/releases/v0.0.2">v0.0.2</a></summary>
+              <details class="wf-history-node wf-history-node--manifestation" open>
+                <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/ontology/releases/v0.0.2/ttl">ttl</a></summary>
+                <div class="wf-history-node wf-history-node--file">
+                  <div class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl" class="wf-history-file-iri">https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/releases/v0.0.2/ttl/fantasy-rules-ontology.ttl</a></div>
+                </div>
+              </details>
+            </details>
+          </details>
+        </div>
         <div class="wf-history-tree">
           <details class="wf-history-node wf-history-node--history" open>
             <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/ontology/_history001">ontology/_history001</a></summary>
@@ -376,7 +458,7 @@
     </article>
   </main>
   <footer class="wf-generated">
-    Generated on <span class="wf-term wf-date-tip" tabindex="0" title="2026-09-01T05:19:54.201Z" data-tooltip="2026-09-01T05:19:54.201Z">September 1, 2026</span> by <a href="https://github.com/semantic-flow/weave/">Weave</a>
+    Generated on <span class="wf-term wf-date-tip" tabindex="0" title="2026-09-01T05:20:01.270Z" data-tooltip="2026-09-01T05:20:01.270Z">September 1, 2026</span> by <a href="https://github.com/semantic-flow/weave/">Weave</a>
   </footer>
 </body>
 </html>

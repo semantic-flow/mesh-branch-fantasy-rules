@@ -148,11 +148,13 @@
           <tr><th scope="row"><a class="wf-term wf-term-link" href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasAbilityScore" title="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasAbilityScore">fant:hasAbilityScore</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/gunaar/ability-score/intelligence">https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/gunaar/ability-score/intelligence</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasAbilityScore" title="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasAbilityScore">fant:hasAbilityScore</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/gunaar/ability-score/strength">https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/gunaar/ability-score/strength</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasAbilityScore" title="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasAbilityScore">fant:hasAbilityScore</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/gunaar/ability-score/wisdom">https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/gunaar/ability-score/wisdom</a></td></tr>
+          <tr><th scope="row"><a class="wf-term wf-term-link" href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasAlignment" title="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasAlignment">fant:hasAlignment</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/Alignment/chaoticGood">https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/Alignment/chaoticGood</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasCharacterClass" title="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/hasCharacterClass">fant:hasCharacterClass</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/barbarian">fant:barbarian</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/level" title="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/level">fant:level</a></th><td><span>2</span></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/primaryAbility" title="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/primaryAbility">fant:primaryAbility</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/strength">fant:strength</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/PlayerCharacter">fant:PlayerCharacter</a></td></tr>
           <tr><th scope="row"><a class="wf-term wf-term-link" href="https://schema.org/characterName" title="https://schema.org/characterName">schema:characterName</a></th><td><span>Gunaar</span></td></tr>
+          <tr><th scope="row"><a class="wf-term wf-term-link" href="https://semantic-flow.github.io/sflo/ontology/compatibleWith" title="https://semantic-flow.github.io/sflo/ontology/compatibleWith">sflo:compatibleWith</a></th><td><a href="https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/releases/v0.0.2">https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/releases/v0.0.2</a></td></tr>
           </tbody>
         </table>
       </details>
@@ -162,25 +164,35 @@
       <details open>
         <summary>Latest historical manifestation file</summary>
         <div class="wf-source-meta">
-          <span>examples/gunaar/_history001/_s0001/ttl/gunaar.ttl</span>
-          <a href="/mesh-branch-fantasy-rules/examples/gunaar/_history001/_s0001/ttl/gunaar.ttl">Raw file</a>
+          <span>examples/gunaar/_history001/_s0002/ttl/gunaar.ttl</span>
+          <a href="/mesh-branch-fantasy-rules/examples/gunaar/_history001/_s0002/ttl/gunaar.ttl">Raw file</a>
         </div>
 <pre class="shiki github-dark-default" style="background-color:#0d1117;color:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#FF7B72">@base </span><span style="color:#FFA657">&#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"><span style="color:#FF7B72">@prefix fant:</span><span style="color:#FFA657"> &#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"><span style="color:#FF7B72">@prefix schema:</span><span style="color:#FFA657"> &#x3C;https://schema.org/></span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"><span style="color:#FF7B72">@prefix sflo:</span><span style="color:#FFA657"> &#x3C;https://semantic-flow.github.io/sflo/ontology/></span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"><span style="color:#FF7B72">@prefix xsd:</span><span style="color:#FFA657"> &#x3C;http://www.w3.org/2001/XMLSchema#></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;gunaar></span></span>
 <span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">PlayerCharacter</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    sflo:</span><span style="color:#79C0FF">compatibleWith</span><span style="color:#FFA657"> &#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/releases/v0.0.2></span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    schema:</span><span style="color:#79C0FF">characterName</span><span style="color:#A5D6FF"> "Gunaar"</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    fant:</span><span style="color:#79C0FF">hasCharacterClass</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">barbarian</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    fant:</span><span style="color:#79C0FF">primaryAbility</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">strength</span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    fant:</span><span style="color:#79C0FF">level</span><span style="color:#79C0FF"> 2</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    fant:</span><span style="color:#79C0FF">hasAlignment</span><span style="color:#FFA657"> &#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/Alignment/chaoticGood></span><span style="color:#E6EDF3"> ;</span></span>
 <span class="line"><span style="color:#FF7B72">    fant:</span><span style="color:#79C0FF">hasAbilityScore</span><span style="color:#FFA657"> &#x3C;gunaar/ability-score/strength></span><span style="color:#E6EDF3">,</span></span>
 <span class="line"><span style="color:#FFA657">        &#x3C;gunaar/ability-score/dexterity></span><span style="color:#E6EDF3">,</span></span>
 <span class="line"><span style="color:#FFA657">        &#x3C;gunaar/ability-score/constitution></span><span style="color:#E6EDF3">,</span></span>
 <span class="line"><span style="color:#FFA657">        &#x3C;gunaar/ability-score/intelligence></span><span style="color:#E6EDF3">,</span></span>
 <span class="line"><span style="color:#FFA657">        &#x3C;gunaar/ability-score/wisdom></span><span style="color:#E6EDF3">,</span></span>
 <span class="line"><span style="color:#FFA657">        &#x3C;gunaar/ability-score/charisma></span><span style="color:#E6EDF3"> .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFA657">&#x3C;gunaar/alignment-history/2016-10-30T03-14-00-04-00></span></span>
+<span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">AlignmentHistory</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    fant:</span><span style="color:#79C0FF">effectiveDateTime</span><span style="color:#A5D6FF"> "2016-10-30T03:14:00-04:00"</span><span style="color:#E6EDF3">^^</span><span style="color:#FF7B72">xsd:</span><span style="color:#79C0FF">dateTime</span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    fant:</span><span style="color:#79C0FF">character</span><span style="color:#FFA657"> &#x3C;gunaar></span><span style="color:#E6EDF3"> ;</span></span>
+<span class="line"><span style="color:#FF7B72">    fant:</span><span style="color:#79C0FF">alignmentValue</span><span style="color:#FFA657"> &#x3C;https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/Alignment/chaoticGood></span><span style="color:#E6EDF3"> .</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FFA657">&#x3C;gunaar/ability-score/strength></span></span>
 <span class="line"><span style="color:#FF7B72">    a</span><span style="color:#FF7B72"> fant:</span><span style="color:#79C0FF">AbilityScore</span><span style="color:#E6EDF3"> ;</span></span>
@@ -228,6 +240,15 @@
                 </div>
               </details>
             </details>
+            <details class="wf-history-node wf-history-node--state" open>
+              <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/examples/gunaar/_history001/_s0002">_s0002</a></summary>
+              <details class="wf-history-node wf-history-node--manifestation" open>
+                <summary class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/examples/gunaar/_history001/_s0002/ttl">ttl</a></summary>
+                <div class="wf-history-node wf-history-node--file">
+                  <div class="wf-history-node-header"><a href="/mesh-branch-fantasy-rules/examples/gunaar/_history001/_s0002/ttl/gunaar.ttl" class="wf-history-file-iri">https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/gunaar/_history001/_s0002/ttl/gunaar.ttl</a></div>
+                </div>
+              </details>
+            </details>
           </details>
         </div>
       </details>
@@ -236,7 +257,7 @@
     </article>
   </main>
   <footer class="wf-generated">
-    Generated on <span class="wf-term wf-date-tip" tabindex="0" title="2026-09-01T05:19:59.394Z" data-tooltip="2026-09-01T05:19:59.394Z">September 1, 2026</span> by <a href="https://github.com/semantic-flow/weave/">Weave</a>
+    Generated on <span class="wf-term wf-date-tip" tabindex="0" title="2026-09-01T05:20:01.548Z" data-tooltip="2026-09-01T05:20:01.548Z">September 1, 2026</span> by <a href="https://github.com/semantic-flow/weave/">Weave</a>
   </footer>
 </body>
 </html>
