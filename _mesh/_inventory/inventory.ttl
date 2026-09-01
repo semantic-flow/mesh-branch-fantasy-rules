@@ -219,3 +219,23 @@
 <ontology/PlayerCharacter/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
 <ontology/PlayerCharacter/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<_mesh> sflo:hasKnop <_knop> .
+
+<_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <_knop/_inventory/inventory.ttl> .
+
+<_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<_mesh> sflo:hasKnop <examples/_knop> .
+
+<examples/_knop> a sflo:Knop ;
+  sflo:hasWorkingKnopInventoryFile <examples/_knop/_inventory/inventory.ttl> .
+
+<examples/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
