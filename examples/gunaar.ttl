@@ -1,19 +1,29 @@
 @base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/> .
 @prefix fant: <https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/> .
 @prefix schema: <https://schema.org/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <gunaar>
     a fant:PlayerCharacter ;
+    sflo:compatibleWith <https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/releases/v0.0.2> ;
     schema:characterName "Gunaar" ;
     fant:hasCharacterClass fant:barbarian ;
     fant:primaryAbility fant:strength ;
     fant:level 2 ;
+    fant:hasAlignment <https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/Alignment/chaoticGood> ;
     fant:hasAbilityScore <gunaar/ability-score/strength>,
         <gunaar/ability-score/dexterity>,
         <gunaar/ability-score/constitution>,
         <gunaar/ability-score/intelligence>,
         <gunaar/ability-score/wisdom>,
         <gunaar/ability-score/charisma> .
+
+<gunaar/alignment-history/2016-10-30T03-14-00-04-00>
+    a fant:AlignmentHistory ;
+    fant:effectiveDateTime "2016-10-30T03:14:00-04:00"^^xsd:dateTime ;
+    fant:character <gunaar> ;
+    fant:alignmentValue <https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/Alignment/chaoticGood> .
 
 <gunaar/ability-score/strength>
     a fant:AbilityScore ;
