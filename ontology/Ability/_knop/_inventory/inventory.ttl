@@ -33,3 +33,12 @@
 
 <ontology/Ability/_knop/_inventory/index.html> a sflo:ResourcePage, sflo:LocatedFile .
 
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/Ability/_knop> sflo:hasReferenceCatalog <ontology/Ability/_knop/_references> .
+
+<ontology/Ability/_knop/_references> a sflo:ReferenceCatalog, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <ontology/Ability/_knop/_references/references.ttl> .
+
+<ontology/Ability/_knop/_references/references.ttl> a sflo:LocatedFile, sflo:RdfDocument .
