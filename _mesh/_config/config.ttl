@@ -2,4 +2,9 @@
 
 <> a sfcfg:MeshConfig ;
   sfcfg:workspaceRootRelativeToMeshRoot "../" ;
-  sfcfg:hasPublicationProfile sfcfg:publicationProfile_githubPages .
+  sfcfg:hasPublicationProfile <https://semantic-flow.github.io/sflo/config/publicationProfile_githubPages> ;
+  sfcfg:hasMeshWorkspacePathRule [
+    a sfcfg:MeshWorkspacePathRule ;
+    sfcfg:workspacePathPrefix "../source/" ;
+    sfcfg:appliesToLocalPathLocatorKind <https://semantic-flow.github.io/sflo/config/localPathLocatorKind_workingLocalRelativePath>
+  ] .
