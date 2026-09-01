@@ -1,0 +1,46 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/examples/> .
+@prefix fant: <https://semantic-flow.github.io/mesh-branch-fantasy-rules/ontology/> .
+@prefix schema: <https://schema.org/> .
+
+<gunaar>
+    a fant:PlayerCharacter ;
+    schema:characterName "Gunaar" ;
+    fant:hasCharacterClass fant:barbarian ;
+    fant:primaryAbility fant:strength ;
+    fant:level 2 ;
+    fant:hasAbilityScore <gunaar/ability-score/strength>,
+        <gunaar/ability-score/dexterity>,
+        <gunaar/ability-score/constitution>,
+        <gunaar/ability-score/intelligence>,
+        <gunaar/ability-score/wisdom>,
+        <gunaar/ability-score/charisma> .
+
+<gunaar/ability-score/strength>
+    a fant:AbilityScore ;
+    fant:forAbility fant:strength ;
+    fant:scoreValue 18 .
+
+<gunaar/ability-score/dexterity>
+    a fant:AbilityScore ;
+    fant:forAbility fant:dexterity ;
+    fant:scoreValue 15 .
+
+<gunaar/ability-score/constitution>
+    a fant:AbilityScore ;
+    fant:forAbility fant:constitution ;
+    fant:scoreValue 16 .
+
+<gunaar/ability-score/intelligence>
+    a fant:AbilityScore ;
+    fant:forAbility fant:intelligence ;
+    fant:scoreValue 13 .
+
+<gunaar/ability-score/wisdom>
+    a fant:AbilityScore ;
+    fant:forAbility fant:wisdom ;
+    fant:scoreValue 14 .
+
+<gunaar/ability-score/charisma>
+    a fant:AbilityScore ;
+    fant:forAbility fant:charisma ;
+    fant:scoreValue 12 .
