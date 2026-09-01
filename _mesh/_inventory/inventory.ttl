@@ -27,15 +27,11 @@
 <_mesh/_config> a sfcfg:MeshConfig, sflo:DigitalArtifact, sflo:RdfDocument ;
   sflo:hasWorkingLocatedFile <_mesh/_config/config.ttl> ;
   sflo:hasResourcePage <_mesh/_config/index.html> ;
-  sflo:hasArtifactHistory <_mesh/_config/_history001> ;
-  sflo:currentArtifactHistory <_mesh/_config/_history001> ;
-  sflo:nextHistoryOrdinal "2"^^xsd:nonNegativeInteger .
+  sflo:hasArtifactHistory <_mesh/_config/_history001> .
 
 <_mesh/_config/_history001> a sflo:ArtifactHistory ;
   sflo:historyOrdinal "1"^^xsd:nonNegativeInteger ;
   sflo:hasHistoricalState <_mesh/_config/_history001/_s0001> ;
-  sflo:latestHistoricalState <_mesh/_config/_history001/_s0001> ;
-  sflo:nextStateOrdinal "2"^^xsd:nonNegativeInteger ;
   sflo:hasResourcePage <_mesh/_config/_history001/index.html> .
 
 <_mesh/_config/_history001/_s0001> a sflo:HistoricalState ;
