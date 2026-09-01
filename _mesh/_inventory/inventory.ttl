@@ -239,3 +239,25 @@
   sflo:hasWorkingKnopInventoryFile <examples/_knop/_inventory/inventory.ttl> .
 
 <examples/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<> sflo:hasResourcePage <index.html> .
+
+<_knop> sflo:hasResourcePage <_knop/index.html> .
+
+<index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<examples> sflo:hasResourcePage <examples/index.html> .
+
+<examples/_knop> sflo:hasResourcePage <examples/_knop/index.html> .
+
+<examples/index.html> a sflo:ResourcePage, sflo:LocatedFile .
+
+<examples/_knop/index.html> a sflo:ResourcePage, sflo:LocatedFile .
