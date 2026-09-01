@@ -42,3 +42,10 @@
   sflo:hasWorkingLocatedFile <ontology/CharacterShape/_knop/_references/references.ttl> .
 
 <ontology/CharacterShape/_knop/_references/references.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/CharacterShape/_knop/_references> sflo:hasResourcePage <ontology/CharacterShape/_knop/_references/index.html> .
+
+<ontology/CharacterShape/_knop/_references/index.html> a sflo:ResourcePage, sflo:LocatedFile .

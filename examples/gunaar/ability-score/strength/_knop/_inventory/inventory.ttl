@@ -42,3 +42,10 @@
   sflo:hasWorkingLocatedFile <examples/gunaar/ability-score/strength/_knop/_references/references.ttl> .
 
 <examples/gunaar/ability-score/strength/_knop/_references/references.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<examples/gunaar/ability-score/strength/_knop/_references> sflo:hasResourcePage <examples/gunaar/ability-score/strength/_knop/_references/index.html> .
+
+<examples/gunaar/ability-score/strength/_knop/_references/index.html> a sflo:ResourcePage, sflo:LocatedFile .
