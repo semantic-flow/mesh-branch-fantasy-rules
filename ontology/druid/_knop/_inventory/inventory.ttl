@@ -1,0 +1,24 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/druid/_knop> a sflo:Knop ;
+  sflo:hasKnopMetadata <ontology/druid/_knop/_meta> ;
+  sflo:hasKnopInventory <ontology/druid/_knop/_inventory> ;
+  sflo:hasKnopSourceRegistry <ontology/druid/_knop/_sources> ;
+  sflo:hasExtractionSource <ontology/druid/_knop/_sources#extraction-source> ;
+  sflo:hasWorkingKnopInventoryFile <ontology/druid/_knop/_inventory/inventory.ttl> .
+
+<ontology/druid/_knop/_meta> a sflo:KnopMetadata, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <ontology/druid/_knop/_meta/meta.ttl> .
+
+<ontology/druid/_knop/_inventory> a sflo:KnopInventory, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <ontology/druid/_knop/_inventory/inventory.ttl> .
+
+<ontology/druid/_knop/_sources> a sflo:KnopSourceRegistry, sflo:DigitalArtifact, sflo:RdfDocument ;
+  sflo:hasWorkingLocatedFile <ontology/druid/_knop/_sources/sources.ttl> .
+
+<ontology/druid/_knop/_meta/meta.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<ontology/druid/_knop/_inventory/inventory.ttl> a sflo:LocatedFile, sflo:RdfDocument .
+
+<ontology/druid/_knop/_sources/sources.ttl> a sflo:LocatedFile, sflo:RdfDocument .

@@ -1,0 +1,6 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/alignmentValue/_knop> a sflo:Knop ;
+  sflo:designatorPath "ontology/alignmentValue" ;
+  sflo:hasWorkingKnopInventoryFile <ontology/alignmentValue/_knop/_inventory/inventory.ttl> .

@@ -1,0 +1,6 @@
+@base <https://semantic-flow.github.io/mesh-branch-fantasy-rules/> .
+@prefix sflo: <https://semantic-flow.github.io/sflo/ontology/> .
+
+<ontology/DruidPrimaryAbilityChoice/_knop> a sflo:Knop ;
+  sflo:designatorPath "ontology/DruidPrimaryAbilityChoice" ;
+  sflo:hasWorkingKnopInventoryFile <ontology/DruidPrimaryAbilityChoice/_knop/_inventory/inventory.ttl> .
